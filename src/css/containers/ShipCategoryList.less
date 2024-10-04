@@ -1,0 +1,34 @@
+@import "../colors.less";
+
+.ShipCategoryList {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1em;
+}
+
+
+@media (min-width: 600px) {
+  .ShipCategoryList {
+    height: 100%;
+  }
+}
+
+.ShipCategoryList-load-spin {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  color: @color-text-dark;
+}
+
+
+.ShipCategoryList-content {
+  width: 100%;
+  min-height: 5em;
+  padding-bottom: 1.0em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

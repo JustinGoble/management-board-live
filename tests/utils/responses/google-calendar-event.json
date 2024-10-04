@@ -1,0 +1,30 @@
+{
+  "kind": "calendar#event",
+  "etag": "\"3145406157602000\"",
+  "id": "r0ga85m3uvr3gfd938s4p3g6j0",
+  "status": "confirmed",
+  "htmlLink": "https://www.google.com/calendar/event?eid=cjBnYTg1bTN1dnIzZ2ZkOTM4czRwM2c2ajAgbDVzMWhtdHRrMXM3aXY2Z3I1bXBkaTE2cThAZw",
+  "created": "2019-11-02T13:52:32.000Z",
+  "updated": "2019-11-02T13:57:58.801Z",
+  "summary": "Test event auto updated",
+  "description": "Test event desc",
+  "creator": {
+    "email": "owner-157@objective-driveyards.iam.gserviceaccount.com"
+  },
+  "organizer": {
+    "email": "l5s1hmttk1s7iv6gr5mpdi16q8@group.calendar.google.com",
+    "displayName": "ODY game events",
+    "self": true
+  },
+  "start": {
+    "dateTime": "2019-11-02T13:57:58Z"
+  },
+  "end": {
+    "dateTime": "2019-11-02T17:57:58Z"
+  },
+  "iCalUID": "r0ga85m3uvr3gfd938s4p3g6j0@google.com",
+  "sequence": 2,
+  "reminders": {
+    "useDefault": true
+  }
+}

@@ -1,0 +1,82 @@
+@import "../colors.less";
+
+.UserForm {
+  text-align: left;
+  width: 100%;
+  flex-grow: 1;
+  padding: 1em;
+  background-color: @color-background-grey;
+  color: @color-text-light;
+
+  @media (max-width: 600px) {
+    .UserForm-header {
+      flex-direction: column;
+    }
+  }
+
+  .UserForm-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: @color-text-light;
+    padding: 0.5em 1.0em;
+
+    .UserForm-header-text {
+      display: inline;
+      padding: 0;
+      margin: 0 0.5em 0 0;
+      text-decoration: underline;
+      color: @color-text-light;
+    }
+
+    .UserForm-header-id {
+      color: @color-text-dim;
+    }
+
+    .UserForm-header-created {
+      .UserForm-header-created-timestamp {
+        color: @color-text-light;
+      }
+    }
+
+    .UserForm-header-status {
+      margin-left: 1.0em;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .UserForm-info {
+      flex-direction: column;
+    }
+  }
+
+  .UserForm-info {
+    display: flex;
+    align-items: stretch;
+
+    @media (min-width: 600px) {
+      .UserForm-info-left {
+        width: 0;
+        flex-grow: 2;
+      }
+    }
+
+    .UserForm-info-left {
+      display: flex;
+      flex-direction: column;
+      padding: 0.5em 1.0em;
+    }
+
+    @media (min-width: 600px) {
+      .UserForm-info-right {
+        width: 0;
+        flex-grow: 5;
+      }
+    }
+
+    .UserForm-info-right {
+      padding: 0.5em 1.0em;
+    }
+  }
+}

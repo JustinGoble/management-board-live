@@ -1,0 +1,91 @@
+pathOperationId:
+  name: id
+  in: path
+  description: ID of operation.
+  required: true
+  schema:
+    type: integer
+    format: int64
+
+pathOpAssignmentId:
+  name: id
+  in: path
+  description: ID of operation assignment.
+  required: true
+  schema:
+    type: integer
+    format: int64
+
+pathUserId:
+  name: id
+  in: path
+  description: ID of user.
+  required: true
+  schema:
+    type: integer
+    format: int64
+
+pathDivisionId:
+  name: id
+  in: path
+  description: ID of division.
+  required: true
+  schema:
+    type: integer
+    format: int64
+
+pathRequestId:
+  name: id
+  in: path
+  description: ID of request.
+  required: true
+  schema:
+    type: integer
+    format: int64
+
+queryPage:
+  name: page
+  in: query
+  description: Number of a page in a paged API.
+  required: false
+  schema:
+    type: integer
+    format: int64
+
+queryLimit:
+  name: limit
+  in: query
+  description: Maximum number of results shown per page.
+  required: false
+  schema:
+    type: integer
+    minimum: 1
+    maximum: 100
+    format: int64
+
+querySortField:
+  name: sortField
+  in: query
+  description: The field used for sorting.
+  required: false
+  schema:
+    type: string
+
+querySortOrder:
+  name: sortOrder
+  in: query
+  description: The order of sorting.
+  required: false
+  schema:
+    type: string
+    enum:
+      - ascend
+      - descend
+
+querySearch:
+  name: search
+  in: query
+  description: A free form search text.
+  required: false
+  schema:
+    type: string

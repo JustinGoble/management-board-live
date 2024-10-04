@@ -1,0 +1,79 @@
+version: '3.8'
+
+volumes:
+  redis-data:
+  db-data:
+
+services:
+  postgres:
+    container_name: database 
+    image: nexus-db:latest
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: $POSTGRES_USER
+      POSTGRES_PASSWORD: $POSTGRES_PASSWORD
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 100M
+        reservations:
+          cpus: '0.25'
+          memory: 50M
+
+  redis:
+    container_name: redis
+    image: redis:5.0
+    ports:
+      - 6379:6379
+    volumes:
+      - redis-data:/data
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 100M
+        reservations:
+          cpus: '0.25'
+          memory: 50M
+
+  webserver:
+    container_name: web
+    image: nexus:latest
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 5
+        window: 120s
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 100M
+        reservations:
+          cpus: '0.25'
+          memory: 50M
+    ports:
+      - 80:5000
+    depends_on:
+      - postgres
+      - redis
+    environment:
+      NODE_ENV: development
+
+      NODE_PORT: $NODE_PORT
+      PORT: $PORT
+      REACT_APP_BACKEND: $REACT_APP_BACKEND
+
+      DISCORD_CLIENT_ID: $DISCORD_CLIENT_ID
+      DISCORD_CLIENT_SECRET: $DISCORD_CLIENT_SECRET
+
+      DISCORD_SERVER_ID: $DISCORD_SERVER_ID
+
+      # PostgreSQL database
+      DATABASE_URL: $DATABASE_URL
+
+      REDIS_URL: $REDIS_URL

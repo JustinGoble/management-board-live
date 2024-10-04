@@ -1,0 +1,12 @@
+openapi: "3.0.1"
+servers:
+  - url: /api
+security:
+  - ApiKeyAuth: []
+info:
+  $ref: ./info.yaml
+paths:
+  $ref: ./paths/index.yaml
+components:
+  $ref: ./components/index.yaml
+    

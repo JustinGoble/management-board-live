@@ -1,0 +1,72 @@
+@import "../colors.less";
+
+.ShipForm {
+  text-align: left;
+  width: 100%;
+  flex-grow: 1;
+  padding: 1em;
+  background-color: @color-background-grey;
+  color: @color-text-light;
+
+  @media (max-width: 600px) {
+    .ShipForm-header {
+      flex-direction: column;
+    }
+  }
+  
+  .ShipForm-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: @color-text-light;
+    padding: 0.5em 1.0em;
+  
+    .ShipForm-header-text {
+      display: inline;
+      padding: 0;
+      margin: 0 0.5em 0 0;
+      text-decoration: underline;
+      color: @color-text-light;
+    }
+  
+    .ShipForm-header-id {
+      color: @color-text-dim;
+    }
+  }
+
+  .ShipForm-info {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+    .ShipForm-info-block {
+      flex-grow: 1;
+      padding: 0.5em 1.0em;
+      border-radius: 4px;
+      border: 2px solid @color-text-dim;
+      margin: 0.5em;
+
+      .ant-select {
+        width: 100%;
+      }
+
+      .ant-input-number {
+        width: 100%;
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    .ShipForm-info {
+      flex-direction: column;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .ShipForm-info-block {
+      width: 0em;
+      min-width: 15em;
+    }
+  }
+}

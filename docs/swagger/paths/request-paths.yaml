@@ -1,0 +1,219 @@
+/v1/requests:
+  get:
+    tags:
+      - request
+    summary: Returns multiple requests
+    description: Returns multiple requests. Paged API.
+    parameters:
+      - $ref: '#/components/parameters/queryPage'
+      - $ref: '#/components/parameters/queryLimit'
+      - name: states
+        in: query
+        description: Filter requests based on their state.
+        required: false
+        schema:
+          type: array
+          items:
+            type: string
+            enum:
+              - created
+              - approved
+              - rejected
+              - completed
+              - picked_up
+              - own
+    responses:
+      200:
+        description: Found requests.
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                totalHits:
+                  type: number
+                  format: integer
+                results:
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/Request'
+      default:
+        $ref: '#/components/responses/error'
+  post:
+    tags:
+      - request
+    summary: Upserts a request
+    description: |
+      Upserts a request.
+
+      Only properties `content` and `details` are can be set using this endpoint.
+    requestBody:
+      description: Request to create.
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/NewRequest'
+    responses:
+      200:
+        description: Upserted request
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Request'
+      403:
+        description: Attempting to modify the contents of a validated request.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Error'
+      default:
+        $ref: '#/components/responses/error'
+
+/v1/requests/{id}:
+  get:
+    tags:
+      - request
+    summary: Returns a single request.
+    description: Returns a request based on a single ID.
+    parameters:
+      - $ref: '#/components/parameters/pathRequestId'
+    responses:
+      200:
+        description: Found request.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Request'
+      default:
+        $ref: '#/components/responses/error'
+  delete:
+    tags:
+      - request
+    summary: Removes a request.
+    description: Removes a request based on a single ID.
+    parameters:
+      - $ref: '#/components/parameters/pathRequestId'
+    responses:
+      200:
+        description: OK
+      default:
+        $ref: '#/components/responses/error'
+
+/v1/requests/{id}/validate:
+  post:
+    tags:
+      - request
+    summary: Validates a single request
+    description: |
+      Validates a request based on a single ID and returns the validated request.
+
+      Requests can only be validated by managers and admins.
+    parameters:
+      - $ref: '#/components/parameters/pathRequestId'
+      - in: body
+        name: user
+        description: Validation result, `reply` should only be given for rejected requests.
+        schema:
+          type: object
+          properties:
+            approved:
+              type: boolean
+              default: true
+            reply:
+              type: string
+    responses:
+      200:
+        description: Validated request.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Request'
+      403:
+        description: Reply given for an approved request.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Error'
+      403:
+        description: Request already validated.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Error'
+      default:
+        $ref: '#/components/responses/error'
+
+/v1/requests/{id}/complete:
+  post:
+    tags:
+      - request
+    summary: Completes a single request
+    description: Completes a request based on a single ID and returns the completed request.
+    parameters:
+      - $ref: '#/components/parameters/pathRequestId'
+      - in: body
+        name: user
+        description: Reply to the request.
+        schema:
+          type: object
+          properties:
+            reply:
+              type: string
+    responses:
+      200:
+        description: Completed request.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Request'
+      403:
+        description: Request has not been validated.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Error'
+      403:
+        description: Request was rejected.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Error'
+      403:
+        description: Request already completed.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Error'
+      default:
+        $ref: '#/components/responses/error'
+
+/v1/requests/{id}/pick-up:
+  post:
+    tags:
+      - request
+    summary: Sets a single request as picked up
+    description: Sets a request as picked up based on a single ID and returns the modified request.
+    parameters:
+      - $ref: '#/components/parameters/pathRequestId'
+    responses:
+      200:
+        description: Picked up request.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Request'
+      403:
+        description: Request has not been completed.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Error'
+      403:
+        description: Request already picked up.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Error'
+      default:
+        $ref: '#/components/responses/error'

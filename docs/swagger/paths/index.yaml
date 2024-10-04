@@ -1,0 +1,4 @@
+- $ref: './discord-paths.yaml'
+- $ref: './discord-role-paths.yaml'
+- $ref: './user-paths.yaml'
+- $ref: './request-paths.yaml'

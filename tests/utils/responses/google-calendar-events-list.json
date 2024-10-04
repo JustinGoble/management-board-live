@@ -1,0 +1,41 @@
+{
+  "kind": "calendar#events",
+  "etag": "\"p33k8vv77lr5ua0g\"",
+  "summary": "ODY game events",
+  "updated": "2019-11-02T10:55:50.913Z",
+  "timeZone": "Etc/GMT",
+  "accessRole": "writer",
+  "defaultReminders": [],
+  "nextSyncToken": "COiP_Oeuy-UCEOiP_Oeuy-UCGAQ=",
+  "items": [
+    {
+      "kind": "calendar#event",
+      "etag": "\"3145384301826000\"",
+      "id": "7pscjr9mv04evv2bhvp7jk784t",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=N3BzY2pyOW12MDRldnYyYmh2cDdqazc4NHQgbDVzMWhtdHRrMXM3aXY2Z3I1bXBkaTE2cThAZw",
+      "created": "2019-11-02T10:53:06.000Z",
+      "updated": "2019-11-02T10:55:50.913Z",
+      "summary": "Test event",
+      "creator": {
+        "email": "test_email@gmail.com"
+      },
+      "organizer": {
+        "email": "l5s1hmttk1s7iv6gr5mpdi16q8@group.calendar.google.com",
+        "displayName": "ODY game events",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2019-11-03T12:00:00Z"
+      },
+      "end": {
+        "dateTime": "2019-11-03T13:00:00Z"
+      },
+      "iCalUID": "7pscjr9mv04evv2bhvp7jk784t@google.com",
+      "sequence": 1,
+      "reminders": {
+        "useDefault": true
+      }
+    }
+  ]
+}

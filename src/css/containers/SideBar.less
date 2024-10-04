@@ -1,0 +1,68 @@
+@import "../colors.less";
+
+@media (min-width: 600px) {
+  .SideBar {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    max-width: 16em;
+    height: 100%;
+  }
+}
+
+.SideBar-header {
+  position: relative;
+  width: 100%;
+
+  .SideBar-header-img {
+    width: 100%;
+    height: auto;
+    filter: contrast(160%);
+    filter: brightness(0.7);
+  }
+
+  @media (max-width: 600px) {
+    .SideBar-header-img {
+      height: 10em;
+      object-fit: cover;
+    }
+  }
+
+  .SideBar-header-overlay {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+  }
+
+  .SideBar-logo {
+    width: 5em;
+    height: auto;
+  }
+
+  .SideBar-title {
+    font-size: 100%;
+    padding: 0 0.5em;
+    color: @color-text-light;
+  }
+}
+
+.SideBar-info {
+  padding: 0.5em;
+  background-color: @color-main-dark;
+  color: @color-text-light;
+
+  p {
+    margin: 0;
+    color: @color-text-dim;
+  }
+}
+
+.SideBar-menu {
+  flex-grow: 1;
+}

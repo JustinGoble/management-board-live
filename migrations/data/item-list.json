@@ -1,0 +1,3016 @@
+[
+  {
+    "name": "Consumables",
+    "data": [
+      {
+        "name": "Ammo",
+        "tag": "navy",
+        "data": [
+          {
+            "name": "Cannon Ammo",
+            "data": [
+              {
+                "name": "Cannon Ammo L",
+                "data": [
+                  {
+                    "name": "Kinetic Ammo",
+                    "data": [
+                      "Cannon Agile Kinetic Ammo L",
+                      "Cannon Defense Kinetic Ammo L",
+                      "Cannon Heavy Kinetic Ammo L",
+                      "Cannon Kinetic Ammo L",
+                      "Cannon Precision Kinetic Ammo L"
+                    ]
+                  },
+                  {
+                    "name": "Thermic Ammo",
+                    "data": [
+                      "Cannon Agile Thermic Ammo L",
+                      "Cannon Defense Thermic Ammo L",
+                      "Cannon Heavy Thermic Ammo L",
+                      "Cannon Thermic Ammo L",
+                      "Cannon Precision Thermic Ammo L"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cannon Ammo M",
+                "data": [
+                  {
+                    "name": "Kinetic Ammo",
+                    "data": [
+                      "Cannon Agile Kinetic Ammo M",
+                      "Cannon Defense Kinetic Ammo M",
+                      "Cannon Heavy Kinetic Ammo M",
+                      "Cannon Kinetic Ammo M",
+                      "Cannon Precision Kinetic Ammo M"
+                    ]
+                  },
+                  {
+                    "name": "Thermic Ammo",
+                    "data": [
+                      "Cannon Agile Thermic Ammo M",
+                      "Cannon Defense Thermic Ammo M",
+                      "Cannon Heavy Thermic Ammo M",
+                      "Cannon Thermic Ammo M",
+                      "Cannon Precision Thermic Ammo M"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cannon Ammo S",
+                "data": [
+                  {
+                    "name": "Kinetic Ammo",
+                    "data": [
+                      "Cannon Agile Kinetic Ammo S",
+                      "Cannon Defense Kinetic Ammo S",
+                      "Cannon Heavy Kinetic Ammo S",
+                      "Cannon Kinetic Ammo S",
+                      "Cannon Precision Kinetic Ammo S"
+                    ]
+                  },
+                  {
+                    "name": "Thermic Ammo",
+                    "data": [
+                      "Cannon Agile Thermic Ammo S",
+                      "Cannon Defense Thermic Ammo S",
+                      "Cannon Heavy Thermic Ammo S",
+                      "Cannon Thermic Ammo S",
+                      "Cannon Precision Thermic Ammo S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cannon Ammo XS",
+                "data": [
+                  {
+                    "name": "Kinetic Ammo",
+                    "data": [
+                      "Cannon Agile Kinetic Ammo XS",
+                      "Cannon Defense Kinetic Ammo XS",
+                      "Cannon Heavy Kinetic Ammo XS",
+                      "Cannon Kinetic Ammo XS",
+                      "Cannon Precision Kinetic Ammo XS"
+                    ]
+                  },
+                  {
+                    "name": "Thermic Ammo",
+                    "data": [
+                      "Cannon Agile Thermic Ammo XS",
+                      "Cannon Defense Thermic Ammo XS",
+                      "Cannon Heavy Thermic Ammo XS",
+                      "Cannon Thermic Ammo XS",
+                      "Cannon Precision Thermic Ammo XS"
+                    ]
+                  }
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "Laser Ammo",
+            "data": [
+              {
+                "name": "Laser Ammo L",
+                "data": [
+                  {
+                    "name": "Electromagnetic Ammo",
+                    "data": [
+                      "Laser Agile Electromagnetic Ammo L",
+                      "Laser Defense Electromagnetic Ammo L",
+                      "Laser Heavy Electromagnetic Ammo L",
+                      "Laser Electromagnetic Ammo L",
+                      "Laser Precision Electromagnetic Ammo L"
+                    ]
+                  },
+                  {
+                    "name": "Thermic Ammo",
+                    "data": [
+                      "Laser Agile Thermic Ammo L",
+                      "Laser Defense Thermic Ammo L",
+                      "Laser Heavy Thermic Ammo L",
+                      "Laser Thermic Ammo L",
+                      "Laser Precision Thermic Ammo L"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Laser Ammo M",
+                "data": [
+                  {
+                    "name": "Electromagnetic Ammo",
+                    "data": [
+                      "Laser Agile Electromagnetic Ammo M",
+                      "Laser Defense Electromagnetic Ammo M",
+                      "Laser Heavy Electromagnetic Ammo M",
+                      "Laser Electromagnetic Ammo M",
+                      "Laser Precision Electromagnetic Ammo M"
+                    ]
+                  },
+                  {
+                    "name": "Thermic Ammo",
+                    "data": [
+                      "Laser Agile Thermic Ammo M",
+                      "Laser Defense Thermic Ammo M",
+                      "Laser Heavy Thermic Ammo M",
+                      "Laser Thermic Ammo M",
+                      "Laser Precision Thermic Ammo M"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Laser Ammo S",
+                "data": [
+                  {
+                    "name": "Electromagnetic Ammo",
+                    "data": [
+                      "Laser Agile Electromagnetic Ammo S",
+                      "Laser Defense Electromagnetic Ammo S",
+                      "Laser Heavy Electromagnetic Ammo S",
+                      "Laser Electromagnetic Ammo S",
+                      "Laser Precision Electromagnetic Ammo S"
+                    ]
+                  },
+                  {
+                    "name": "Thermic Ammo",
+                    "data": [
+                      "Laser Agile Thermic Ammo S",
+                      "Laser Defense Thermic Ammo S",
+                      "Laser Heavy Thermic Ammo S",
+                      "Laser Thermic Ammo S",
+                      "Laser Precision Thermic Ammo S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Laser Ammo XS",
+                "data": [
+                  {
+                    "name": "Electromagnetic Ammo",
+                    "data": [
+                      "Laser Agile Electromagnetic Ammo XS",
+                      "Laser Defense Electromagnetic Ammo XS",
+                      "Laser Heavy Electromagnetic Ammo XS",
+                      "Laser Electromagnetic Ammo XS",
+                      "Laser Precision Electromagnetic Ammo XS"
+                    ]
+                  },
+                  {
+                    "name": "Thermic Ammo",
+                    "data": [
+                      "Laser Agile Thermic Ammo XS",
+                      "Laser Defense Thermic Ammo XS",
+                      "Laser Heavy Thermic Ammo XS",
+                      "Laser Thermic Ammo XS",
+                      "Laser Precision Thermic Ammo XS"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Missile Pod Ammo",
+            "data": [
+              {
+                "name": "Missile Ammo L",
+                "data": [
+                  {
+                    "name": "Antimatter Ammo",
+                    "data": [
+                      "Missile Agile Antimatter Ammo L",
+                      "Missile Defense Antimatter Ammo L",
+                      "Missile Heavy Antimatter Ammo L",
+                      "Missile Antimatter Ammo L",
+                      "Missile Precision Antimatter Ammo L"
+                    ]
+                  },
+                  {
+                    "name": "Kinetic Ammo",
+                    "data": [
+                      "Missile Agile Kinetic Ammo L",
+                      "Missile Defense Kinetic Ammo L",
+                      "Missile Heavy Kinetic Ammo L",
+                      "Missile Kinetic Ammo L",
+                      "Missile Precision Kinetic Ammo L"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Missile Ammo M",
+                "data": [
+                  {
+                    "name": "Antimatter Ammo",
+                    "data": [
+                      "Missile Agile Antimatter Ammo M",
+                      "Missile Defense Antimatter Ammo M",
+                      "Missile Heavy Antimatter Ammo M",
+                      "Missile Antimatter Ammo M",
+                      "Missile Precision Antimatter Ammo M"
+                    ]
+                  },
+                  {
+                    "name": "Kinetic Ammo",
+                    "data": [
+                      "Missile Agile Kinetic Ammo M",
+                      "Missile Defense Kinetic Ammo M",
+                      "Missile Heavy Kinetic Ammo M",
+                      "Missile Kinetic Ammo M",
+                      "Missile Precision Kinetic Ammo M"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Missile Ammo S",
+                "data": [
+                  {
+                    "name": "Antimatter Ammo",
+                    "data": [
+                      "Missile Agile Antimatter Ammo S",
+                      "Missile Defense Antimatter Ammo S",
+                      "Missile Heavy Antimatter Ammo S",
+                      "Missile Antimatter Ammo S",
+                      "Missile Precision Antimatter Ammo S"
+                    ]
+                  },
+                  {
+                    "name": "Kinetic Ammo",
+                    "data": [
+                      "Missile Agile Kinetic Ammo S",
+                      "Missile Defense Kinetic Ammo S",
+                      "Missile Heavy Kinetic Ammo S",
+                      "Missile Kinetic Ammo S",
+                      "Missile Precision Kinetic Ammo S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Missile Ammo XS",
+                "data": [
+                  {
+                    "name": "Antimatter Ammo",
+                    "data": [
+                      "Missile Agile Antimatter Ammo XS",
+                      "Missile Defense Antimatter Ammo XS",
+                      "Missile Heavy Antimatter Ammo XS",
+                      "Missile Antimatter Ammo XS",
+                      "Missile Precision Antimatter Ammo XS"
+                    ]
+                  },
+                  {
+                    "name": "Kinetic Ammo",
+                    "data": [
+                      "Missile Agile Kinetic Ammo XS",
+                      "Missile Defense Kinetic Ammo XS",
+                      "Missile Heavy Kinetic Ammo XS",
+                      "Missile Kinetic Ammo XS",
+                      "Missile Precision Kinetic Ammo XS"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Railgun Pod Ammo",
+            "data": [
+              {
+                "name": "Railgun Ammo L",
+                "data": [
+                  {
+                    "name": "Antimatter Ammo",
+                    "data": [
+                      "Railgun Agile Antimatter Ammo L",
+                      "Railgun Defense Antimatter Ammo L",
+                      "Railgun Heavy Antimatter Ammo L",
+                      "Railgun Antimatter Ammo L",
+                      "Railgun Precision Antimatter Ammo L"
+                    ]
+                  },
+                  {
+                    "name": "Electromagnetic Ammo",
+                    "data": [
+                      "Railgun Agile Electromagnetic Ammo L",
+                      "Railgun Defense Electromagnetic Ammo L",
+                      "Railgun Heavy Electromagnetic Ammo L",
+                      "Railgun Electromagnetic Ammo L",
+                      "Railgun Precision Electromagnetic Ammo L"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Railgun Ammo M",
+                "data": [
+                  {
+                    "name": "Antimatter Ammo",
+                    "data": [
+                      "Railgun Agile Antimatter Ammo M",
+                      "Railgun Defense Antimatter Ammo M",
+                      "Railgun Heavy Antimatter Ammo M",
+                      "Railgun Antimatter Ammo M",
+                      "Railgun Precision Antimatter Ammo M"
+                    ]
+                  },
+                  {
+                    "name": "Electromagnetic Ammo",
+                    "data": [
+                      "Railgun Agile Electromagnetic Ammo M",
+                      "Railgun Defense Electromagnetic Ammo M",
+                      "Railgun Heavy Electromagnetic Ammo M",
+                      "Railgun Electromagnetic Ammo M",
+                      "Railgun Precision Electromagnetic Ammo M"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Railgun Ammo S",
+                "data": [
+                  {
+                    "name": "Antimatter Ammo",
+                    "data": [
+                      "Railgun Agile Antimatter Ammo S",
+                      "Railgun Defense Antimatter Ammo S",
+                      "Railgun Heavy Antimatter Ammo S",
+                      "Railgun Antimatter Ammo S",
+                      "Railgun Precision Antimatter Ammo S"
+                    ]
+                  },
+                  {
+                    "name": "Electromagnetic Ammo",
+                    "data": [
+                      "Railgun Agile Electromagnetic Ammo S",
+                      "Railgun Defense Electromagnetic Ammo S",
+                      "Railgun Heavy Electromagnetic Ammo S",
+                      "Railgun Electromagnetic Ammo S",
+                      "Railgun Precision Electromagnetic Ammo S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Railgun Ammo XS",
+                "data": [
+                  {
+                    "name": "Antimatter Ammo",
+                    "data": [
+                      "Railgun Agile Antimatter Ammo XS",
+                      "Railgun Defense Antimatter Ammo XS",
+                      "Railgun Heavy Antimatter Ammo XS",
+                      "Railgun Antimatter Ammo XS",
+                      "Railgun Precision Antimatter Ammo XS"
+                    ]
+                  },
+                  {
+                    "name": "Electromagnetic Ammo",
+                    "data": [
+                      "Railgun Agile Electromagnetic Ammo XS",
+                      "Railgun Defense Electromagnetic Ammo XS",
+                      "Railgun Heavy Electromagnetic Ammo XS",
+                      "Railgun Electromagnetic Ammo XS",
+                      "Railgun Precision Electromagnetic Ammo XS"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "tag": "industry",
+        "data": [
+          {
+            "name": "Construct Elements",
+            "data": [
+              {
+                "name": "Decorative Element",
+                "data": [
+                  {
+                    "name": "Adjuncts",
+                    "data": [
+                      "Vertical Wing",
+                      "Wing Tip S",
+                      "Wing Tip M",
+                      "Wing Tip L"
+                    ]
+                  },
+                  {
+                    "name": "Antennas",
+                    "data": [
+                      "Antenna S",
+                      "Antenna M",
+                      "Antenna L"
+                    ]
+                  },
+                  {
+                    "name": "Barriers",
+                    "data": [
+                      "Barrier Corner",
+                      "Barrier S",
+                      "Barrier M"
+                    ]
+                  },
+                  {
+                    "name": "Bathroom Elements",
+                    "data": [
+                      "Shower Unit",
+                      "Sink Unit",
+                      "Toilet Unit A",
+                      "Toilet Unit B",
+                      "Urinal Unit"
+                    ]
+                  },
+                  {
+                    "name": "Decorative Cables",
+                    "data": [
+                      "Cable Model-A S",
+                      "Cable Model-A M",
+                      "Cable Model-B S",
+                      "Cable Model-B M",
+                      "Cable Model-C S",
+                      "Cable Model-C M",
+                      "Corner Cable Model-A",
+                      "Corner Cable Model-B",
+                      "Corner Cable Model-C"
+                    ]
+                  },
+                  {
+                    "name": "Furnitures",
+                    "data": [
+                      "\"Eye Doll's Workshop\" - Artist Unknown",
+                      "\"HMS Ajax33\" - Artist Unknown",
+                      "\"Parrotos Sanctuary\" - Artist Unknown",
+                      "Bed",
+                      "Bench",
+                      "Dresser",
+                      "Nightstand",
+                      "Round Carpet",
+                      "Shelf Empty",
+                      "Shelf Full",
+                      "Shelf Half Full",
+                      "Sofa",
+                      "Square Carpet",
+                      "Table",
+                      "Trash",
+                      "Wardrobe",
+                      "Wooden Armchair",
+                      "Wooden Chair",
+                      "Wooden Dresser",
+                      "Wooden Low Table",
+                      "Wooden Sofa",
+                      "Wooden Table L",
+                      "Wooden Table M",
+                      "Wooden Wardrobe"
+                    ]
+                  },
+                  {
+                    "name": "Holograms",
+                    "data": [
+                      "Planet Hologram",
+                      "Planet Hologram L",
+                      "Spaceship Hologram S",
+                      "Spaceship Hologram M",
+                      "Spaceship Hologram L"
+                    ]
+                  },
+                  {
+                    "name": "Hull Decoration",
+                    "data": [
+                      "Hull Decorative Element A",
+                      "Hull Decorative Element B",
+                      "Hull Decorative Element C",
+                      "Steel Column",
+                      "Steel Panel"
+                    ]
+                  },
+                  {
+                    "name": "Pipes",
+                    "data": [
+                      "Pipe A M",
+                      "Pipe B M",
+                      "Pipe C M",
+                      "Pipe D M",
+                      "Pipe Connector M",
+                      "Pipe Corner M"
+                    ]
+                  },
+                  {
+                    "name": "Plants",
+                    "data": [
+                      "Suspended Plant A",
+                      "Bagged Plant A",
+                      "Bagged Plant B",
+                      "Bonsai",
+                      "Eggplant Plant Case",
+                      "Ficus Plant A",
+                      "Ficus Plant B",
+                      "Foliage Plant Case A",
+                      "Foliage Plant Case B",
+                      "Plant",
+                      "Plant Case A",
+                      "Plant Case B",
+                      "Plant Case C",
+                      "Plant Case D",
+                      "Plant Case E",
+                      "Plant Case S",
+                      "Plant Case M"
+                    ]
+                  },
+                  {
+                    "name": "Windows",
+                    "data": [
+                      "Armored Window XS",
+                      "Armored Window S",
+                      "Armored Window M",
+                      "Armored Window L",
+                      "Bay Window XL",
+                      "Glass Panel S",
+                      "Glass Panel M",
+                      "Glass Panel L",
+                      "Window XS",
+                      "Window S",
+                      "Window M",
+                      "Window L"
+                    ]
+                  },
+                  "Keyboard Unit"
+                ]
+              },
+              {
+                "name": "Industry",
+                "data": [
+                  "Assembly Line XS",
+                  "Assembly Line S",
+                  "Assembly Line M",
+                  "Assembly Line L",
+                  "Assembly Line XL",
+                  "3D Printer M",
+                  "Chemical Industry M",
+                  "Electronics Industry M",
+                  "Glass Furnace M",
+                  "Honeycomb Refinery M",
+                  "Metalwork Industry M",
+                  "Recycler M",
+                  "Refiner M",
+                  "Smelter M",
+                  "Transfer Unit"
+                ]
+              },
+              {
+                "name": "Anti-Gravity Generator",
+                "data": [
+                  "Anti-Gravity Generator S",
+                  "Anti-Gravity Generator M",
+                  "Anti-Gravity Generator L"
+                ]
+              },
+              {
+                "name": "Anti-Gravity Pulsors",
+                "data": [
+                  "Anti-Gravity Pulsor"
+                ]
+              },
+              {
+                "name": "Containers",
+                "data": [
+                  {
+                    "name": "Dispensers",
+                    "data": [
+                      "Dispenser"
+                    ]
+                  },
+                  {
+                    "name": "Fuel Tanks",
+                    "data": [
+                      {
+                        "name": "Atmospheric Fuel Containers",
+                        "data": [
+                          "Atmospheric Fuel Tank XS",
+                          "Atmospheric Fuel Tank S",
+                          "Atmospheric Fuel Tank M",
+                          "Atmospheric Fuel Tank L"
+                        ]
+                      },
+                      {
+                        "name": "Rocket Fuel Containers",
+                        "data": [
+                          "Rocket Fuel Tank XS",
+                          "Rocket Fuel Tank S",
+                          "Rocket Fuel Tank M",
+                          "Rocket Fuel Tank L"
+                        ]
+                      },
+                      {
+                        "name": "Space Fuel Containers",
+                        "data": [
+                          "Space Fuel Tank S",
+                          "Space Fuel Tank M",
+                          "Space Fuel Tank L"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Item Containers",
+                    "data": [
+                      "Container Hub",
+                      "Container XS",
+                      "Container S",
+                      "Container M",
+                      "Container L"
+                    ]
+                  },
+                  {
+                    "name": "Ammo Containers",
+                    "data": [
+                      "Ammo Container XS",
+                      "Ammo Container S",
+                      "Ammo Container M",
+                      "Ammo Container L"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Control Units",
+                "data": [
+                  "Emergency Controller",
+                  "Gunner Module S",
+                  "Gunner Module M",
+                  "Gunner Module L",
+                  "Hovercraft Seat Controller",
+                  "Cockpit Controller",
+                  "Command Seat Controller",
+                  "Programming Board",
+                  "Remote Controller"
+                ]
+              },
+              {
+                "name": "Electronics",
+                "data": [
+                  {
+                    "name": "AND Operators",
+                    "data": [
+                      "AND Operator"
+                    ]
+                  },
+                  {
+                    "name": "NOT Operators",
+                    "data": [
+                      "NOT Operator"
+                    ]
+                  },
+                  {
+                    "name": "OR Operators",
+                    "data": [
+                      "OR Operator"
+                    ]
+                  },
+                  {
+                    "name": "Counters",
+                    "data": [
+                      "2 Counter",
+                      "3 Counter",
+                      "5 Counter",
+                      "7 Counter",
+                      "10 Counter"
+                    ]
+                  },
+                  {
+                    "name": "Data Banks",
+                    "data": [
+                      "Databank"
+                    ]
+                  },
+                  {
+                    "name": "Data Emitters",
+                    "data": [
+                      "Emitter XS",
+                      "Emitter S",
+                      "Emitter M"
+                    ]
+                  },
+                  {
+                    "name": "Delay Lines",
+                    "data": [
+                      "Delay Line"
+                    ]
+                  },
+                  {
+                    "name": "Laser Emitters",
+                    "data": [
+                      "Infra-Red Laser Emitter",
+                      "Laser Emitter"
+                    ]
+                  },
+                  {
+                    "name": "Receivers",
+                    "data": [
+                      "Receiver XS",
+                      "Receiver S",
+                      "Receiver M"
+                    ]
+                  },
+                  {
+                    "name": "Relays",
+                    "data": [
+                      "Relay"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Engines",
+                "data": [
+                  {
+                    "name": "Adjustors",
+                    "data": [
+                      "Adjustor XS",
+                      "Adjustor S",
+                      "Adjustor M",
+                      "Adjustor L"
+                    ]
+                  },
+                  {
+                    "name": "Airbrakes",
+                    "data": [
+                      "Atmospheric Airbrake S",
+                      "Atmospheric Airbrake M",
+                      "Atmospheric Airbrake L"
+                    ]
+                  },
+                  {
+                    "name": "Airfoil",
+                    "data": [
+                      {
+                        "name": "Aileron",
+                        "data": [
+                          "Aileron XS",
+                          "Aileron S",
+                          "Aileron M",
+                          "Compact Aileron XS",
+                          "Compact Aileron S",
+                          "Compact Aileron M"
+                        ]
+                      },
+                      {
+                        "name": "Stabilizer",
+                        "data": [
+                          "Stabilizer XS",
+                          "Stabilizer S",
+                          "Stabilizer M",
+                          "Stabilizer L"
+                        ]
+                      },
+                      {
+                        "name": "Wing",
+                        "data": [
+                          "Wing XS",
+                          "Wing S",
+                          "Wing M",
+                          "Wing Variant M"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Atmospheric Engines",
+                    "data": [
+                      "Atmospheric Engine XS",
+                      "Freight Atmospheric Engine XS",
+                      "Maneuver Atmospheric Engine XS",
+                      "Military Atmospheric Engine XS",
+                      "Safe Atmospheric Engine XS",
+                      "Atmospheric Engine S",
+                      "Freight Atmospheric Engine S",
+                      "Maneuver Atmospheric Engine S",
+                      "Military Atmospheric Engine S",
+                      "Safe Atmospheric Engine S",
+                      "Atmospheric Engine M",
+                      "Freight Atmospheric Engine M",
+                      "Maneuver Atmospheric Engine M",
+                      "Military Atmospheric Engine M",
+                      "Safe Atmospheric Engine M",
+                      "Atmospheric Engine L",
+                      "Freight Atmospheric Engine L",
+                      "Maneuver Atmospheric Engine L",
+                      "Military Atmospheric Engine L",
+                      "Safe Atmospheric Engine L"
+                    ]
+                  },
+                  {
+                    "name": "Hovercraft Engines",
+                    "data": [
+                      "Hover Engine S",
+                      "Hover Engine M",
+                      "Hover Engine L",
+                      "Flat Hover Engine L"
+                    ]
+                  },
+                  {
+                    "name": "Rocket Engines",
+                    "data": [
+                      "Rocket Engine S",
+                      "Rocket Engine M",
+                      "Rocket Engine L"
+                    ]
+                  },
+                  {
+                    "name": "Space Brakes",
+                    "data": [
+                      "Retro-Rocket Brake S",
+                      "Retro-Rocket Brake M",
+                      "Retro-Rocket Brake L"
+                    ]
+                  },
+                  {
+                    "name": "Space Engines",
+                    "data": [
+                      "Space Engine XS",
+                      "Freight Space Engine XS",
+                      "Maneuver Space Engine XS",
+                      "Military Space Engine XS",
+                      "Safe Space Engine XS",
+                      "Space Engine S",
+                      "Freight Space Engine S",
+                      "Maneuver Space Engine S",
+                      "Military Space Engine S",
+                      "Safe Space Engine S",
+                      "Space Engine M",
+                      "Freight Space Engine M",
+                      "Maneuver Space Engine M",
+                      "Military Space Engine M",
+                      "Safe Space Engine M",
+                      "Space Engine L",
+                      "Freight Space Engine L",
+                      "Maneuver Space Engine L",
+                      "Military Space Engine L",
+                      "Safe Space Engine L",
+                      "Space Engine XL",
+                      "Freight Space Engine XL",
+                      "Maneuver Space Engine XL",
+                      "Military Space Engine XL",
+                      "Safe Space Engine XL"
+                    ]
+                  },
+                  {
+                    "name": "Vertical Boosters",
+                    "data": [
+                      "Vertical Booster S",
+                      "Vertical Booster M",
+                      "Vertical Booster L"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Instruments",
+                "data": [
+                  "Gyroscope",
+                  "Telemeter",
+                  "Territory Scanner"
+                ]
+              },
+              {
+                "name": "Interactive Elements",
+                "data": [
+                  {
+                    "name": "Doors",
+                    "data": [
+                      "Airlock",
+                      "Interior Door",
+                      "Reinforced Sliding Door",
+                      "Sliding Door S",
+                      "Sliding Door M",
+                      "Gate XS",
+                      "Expanded Gate S",
+                      "Gate M",
+                      "Expanded Gate L",
+                      "Gate XL"
+                    ]
+                  },
+                  {
+                    "name": "Elevators",
+                    "data": [
+                      "Elevator XS"
+                    ]
+                  },
+                  {
+                    "name": "Force Fields",
+                    "data": [
+                      "Force Field XS",
+                      "Force Field S",
+                      "Force Field M",
+                      "Force Field L"
+                    ]
+                  },
+                  {
+                    "name": "Landing Gears",
+                    "data": [
+                      "Landing Gear XS",
+                      "Landing Gear S",
+                      "Landing Gear M",
+                      "Landing Gear L"
+                    ]
+                  },
+                  {
+                    "name": "Screens/Signs",
+                    "data": [
+                      "Screen XS",
+                      "Screen S",
+                      "Screen M",
+                      "Screen XL",
+                      "Transparent Screen XS",
+                      "Transparent Screen S",
+                      "Transparent Screen M",
+                      "Transparent Screen L",
+                      "Sign XS",
+                      "Sign S",
+                      "Sign M",
+                      "Sign L",
+                      "Sign Vertical XS",
+                      "Sign Vertical M",
+                      "Sign Vertical L"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Lights",
+                "data": [
+                  "Headlight",
+                  "Long Light XS",
+                  "Long Light S",
+                  "Long Light M",
+                  "Long Light L",
+                  "Square Light XS",
+                  "Square Light S",
+                  "Square Light M",
+                  "Square Light L",
+                  "Vertical Light XS",
+                  "Vertical Light S",
+                  "Vertical Light M",
+                  "Vertical Light L"
+                ]
+              },
+              {
+                "name": "Resurrection Nodes",
+                "data": [
+                  "Resurrection Node"
+                ]
+              },
+              {
+                "name": "Sensors",
+                "data": [
+                  {
+                    "name": "Laser Detectors",
+                    "data": [
+                      "Infra-Red Laser Receiver",
+                      "Laser Receiver"
+                    ]
+                  },
+                  {
+                    "name": "Manual Buttons",
+                    "data": [
+                      "Manual Button S",
+                      "Manual Button XS"
+                    ]
+                  },
+                  {
+                    "name": "Manual Switches",
+                    "data": [
+                      "Manual Switch"
+                    ]
+                  },
+                  {
+                    "name": "Pressure Tiles",
+                    "data": [
+                      "Pressure Tile"
+                    ]
+                  },
+                  {
+                    "name": "Radars",
+                    "data": [
+                      "Radar S",
+                      "Radar M",
+                      "Radar L",
+                      "Space Radar S",
+                      "Space Radar M",
+                      "Space Radar L"
+                    ]
+                  },
+                  {
+                    "name": "Zone Detectors",
+                    "data": [
+                      "Detection Zone XS",
+                      "Detection Zone S",
+                      "Detection Zone M",
+                      "Detection Zone L"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Virtual Projectors",
+                "data": [
+                  "Virtual Scaffolding Projector"
+                ]
+              },
+              {
+                "name": "Weapons",
+                "tag": "navy",
+                "data": [
+                  {
+                    "name": "Cannons",
+                    "data": [
+                      "Cannon XS",
+                      "Cannon S",
+                      "Cannon M",
+                      "Cannon L"
+                    ]
+                  },
+                  {
+                    "name": "Lasers",
+                    "data": [
+                      "Laser XS",
+                      "Laser S",
+                      "Laser M",
+                      "Laser L"
+                    ]
+                  },
+                  {
+                    "name": "Missile Pods",
+                    "data": [
+                      "Missile XS",
+                      "Missile S",
+                      "Missile M",
+                      "Missile L"
+                    ]
+                  },
+                  {
+                    "name": "Railguns",
+                    "data": [
+                      "Railgun XS",
+                      "Railgun S",
+                      "Railgun M",
+                      "Railgun L"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Planet Elements",
+            "tag": "industry",
+            "data": [
+              {
+                "name": "Core Units",
+                "data": [
+                  {
+                    "name": "Dynamic Core Units",
+                    "data": [
+                      "Dynamic Core XS",
+                      "Dynamic Core S",
+                      "Dynamic Core M",
+                      "Dynamic Core L"
+                    ]
+                  },
+                  {
+                    "name": "Static Core Units",
+                    "data": [
+                      "Static Core XS",
+                      "Static Core S",
+                      "Static Core M",
+                      "Static Core L"
+                    ]
+                  },
+                  {
+                    "name": "Space Core Units",
+                    "data": [
+                      "Space Core XS",
+                      "Space Core S",
+                      "Space Core M",
+                      "Space Core L"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Warping",
+                "tag": "navy",
+                "data": [
+                  "Warp Beacon XL",
+                  "Warp Cell",
+                  "Warp Drive L"
+                ]
+              },
+              "Territory Unit"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Materials",
+        "data": [
+          {
+            "name": "Catalysts",
+            "tag": "industry",
+            "data": [
+              "Catalyst 3",
+              "Catalyst 4",
+              "Catalyst 5"
+            ]
+          },
+          {
+            "name": "Fuels",
+            "tag": "industry",
+            "data": [
+              {
+                "name": "Atmospheric Fuels",
+                "tag": "industry",
+                "data": [
+                  "Nitron Fuel"
+                ]
+              },
+              {
+                "name": "Rocket Fuels",
+                "tag": "industry",
+                "data": [
+                  "Xeron Fuel"
+                ]
+              },
+              {
+                "name": "Space Fuels",
+                "tag": "industry",
+                "data": [
+                  "Kergon-X1 Fuel",
+                  "Kergon-X2 Fuel",
+                  "Kergon-X3 Fuel",
+                  "Kergon-X4 Fuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Honeycomb Materials",
+            "tag": "voxel",
+            "data": [
+              {
+                "name": "Product Honeycomb",
+                "data": [
+                  {
+                    "name": "Brick Honeycomb",
+                    "data": [
+                      "Aged Gray Pattern Brick",
+                      "Aged Pattern Brick 1",
+                      "Aged Pattern Brick 2",
+                      "Aged Pattern Brick 3",
+                      "Aged Pattern Brick 4",
+                      "Black Pattern Brick",
+                      "Brick Pattern 1",
+                      "Brick Pattern 2",
+                      "Brick Pattern 3",
+                      "Brick Pattern 4",
+                      "Gray Pattern Brick",
+                      "Matte Black Brick",
+                      "Matte Black Brick 1",
+                      "Matte Black Brick 2",
+                      "Matte Black Brick 3",
+                      "Matte Black Brick 4",
+                      "Matte Dark Brick 1",
+                      "Matte Dark Brick 2",
+                      "Matte Dark Brick 3",
+                      "Matte Dark Brick 4",
+                      "Matte Dark Gray Brick",
+                      "Matte Gray Brick",
+                      "Matte Light Brick 1",
+                      "Matte Light Brick 2",
+                      "Matte Light Brick 3",
+                      "Matte Light Brick 4",
+                      "Matte Light Gray Brick",
+                      "Matte White Brick",
+                      "Stained Gray Pattern Brick",
+                      "Stained Pattern Brick 1",
+                      "Stained Pattern Brick 2",
+                      "Stained Pattern Brick 3",
+                      "Stained Pattern Brick 4",
+                      "Waxed Aged Brick 1",
+                      "Waxed Aged Brick 2",
+                      "Waxed Aged Brick 3",
+                      "Waxed Aged Brick 4",
+                      "Waxed Black Brick",
+                      "Waxed Brick 1",
+                      "Waxed Brick 2",
+                      "Waxed Brick 3",
+                      "Waxed Brick 4",
+                      "Waxed Dark Gray Brick",
+                      "Waxed Gray Brick ",
+                      "Waxed Light Gray Brick",
+                      "Waxed Stained Brick 1",
+                      "Waxed Stained Brick 2",
+                      "Waxed Stained Brick 3",
+                      "Waxed Stained Brick 4",
+                      "Waxed White Brick",
+                      "White Pattern Brick"
+                    ]
+                  },
+                  {
+                    "name": "Carbonfiber Honeycomb",
+                    "data": [
+                      "Aged Gray Pattern Carbon Fiber",
+                      "Black Pattern Carbon Fiber",
+                      "Glossy Black Carbon Fiber",
+                      "Glossy Dark Gray Carbon Fiber",
+                      "Glossy Gray Carbon Fiber",
+                      "Glossy Light Gray Carbon Fiber",
+                      "Glossy White Carbon Fiber",
+                      "Gray Pattern Carbon Fiber",
+                      "Matte Black Carbon Fiber",
+                      "Matte Dark Gray Carbon Fiber",
+                      "Matte Gray Carbon Fiber",
+                      "Matte Light Gray Carbon Fiber",
+                      "Matte White Carbon Fiber",
+                      "Stained Gray Pattern Carbon Fiber",
+                      "White Pattern Carbon Fiber"
+                    ]
+                  },
+                  {
+                    "name": "Concrete Honeycomb",
+                    "data": [
+                      "Aged Gray Pattern Concrete",
+                      "Black Pattern Concrete",
+                      "Gray Pattern Concrete",
+                      "Matte Black Concrete",
+                      "Matte Dark Gray Concrete",
+                      "Matte Gray Concrete",
+                      "Matte Light Gray Concrete",
+                      "Matte White Concrete",
+                      "Stained Gray Pattern Concrete",
+                      "Waxed Black Concrete",
+                      "Waxed Dark Gray Concrete",
+                      "Waxed Gray Concrete",
+                      "Waxed Light Gray Concrete",
+                      "Waxed White Concrete",
+                      "White Pattern Concrete"
+                    ]
+                  },
+                  {
+                    "name": "Marble Honeycomb",
+                    "data": [
+                      "Aged Beige Pattern Marble (cold)",
+                      "Aged Blue Pattern Marble (cold)",
+                      "Aged Gray Pattern Marble",
+                      "Aged Green Pattern Marble (cold)",
+                      "Aged Orange Pattern Marble (cold)",
+                      "Aged Red Pattern Marble (cold)",
+                      "Aged Yellow Pattern Marble (cold)",
+                      "Beige Pattern Marble (cold)",
+                      "Beige Pattern Marble",
+                      "Black Pattern Marble",
+                      "Blue Pattern Marble (cold)",
+                      "Gray Pattern Marble",
+                      "Green Pattern Marble (cold)",
+                      "Matte Beige Marble (cold)",
+                      "Matte Black Marble",
+                      "Matte Blue Marble (cold)",
+                      "Matte Dark Beige Marble (cold)",
+                      "Matte Dark Blue Marble (cold)",
+                      "Matte Dark Gray Marble",
+                      "Matte Dark Green Marble (cold)",
+                      "Matte Dark Orange Marble (cold)",
+                      "Matte Dark Red Marble (cold)",
+                      "Matte Dark Yellow Marble (cold)",
+                      "Matte Gray Marble",
+                      "Matte Green Marble (cold)",
+                      "Matte Light Beige Marble (cold)",
+                      "Matte Light Blue Marble (cold)",
+                      "Matte Light Gray Marble",
+                      "Matte Light Green Marble (cold)",
+                      "Matte Light Orange Marble (cold)",
+                      "Matte Light Red Marble (cold)",
+                      "Matte Light Yellow Marble (cold)",
+                      "Matte Orange Marble (cold)",
+                      "Matte Red Marble (cold)",
+                      "Matte White Marble",
+                      "Matte Yellow Marble (cold)",
+                      "Orange Pattern Marble (cold)",
+                      "Polished Beige Marble (cold)",
+                      "Polished Black Marble",
+                      "Polished Blue Marble (cold)",
+                      "Polished Dark Beige Marble (cold)",
+                      "Polished Dark Blue Marble (cold)",
+                      "Polished Dark Gray Marble",
+                      "Polished Dark Green Marble (cold)",
+                      "Polished Dark Orange Marble (cold)",
+                      "Polished Dark Red Marble (cold)",
+                      "Polished Dark Yellow Marble (cold)",
+                      "Polished Gray Marble",
+                      "Polished Green Marble (cold)",
+                      "Polished Light Beige Marble (cold)",
+                      "Polished Light Blue Marble (cold)",
+                      "Polished Light Gray Marble",
+                      "Polished Light Green Marble (cold)",
+                      "Polished Light Orange Marble (cold)",
+                      "Polished Light Red Marble (cold)",
+                      "Polished Light Yellow Marble (cold)",
+                      "Polished Orange Marble (cold)",
+                      "Polished Red Marble (cold)",
+                      "Polished White Marble",
+                      "Polished Yellow Marble (cold)",
+                      "Red Pattern Marble (cold)",
+                      "Stained Beige Pattern Marble (cold)",
+                      "Stained Blue Pattern Marble (cold)",
+                      "Stained Gray Pattern Marble",
+                      "Stained Green Pattern Marble (cold)",
+                      "Stained Orange Pattern Marble (cold)",
+                      "Stained Red Pattern Marble (cold)",
+                      "Stained Yellow Pattern Marble (cold)",
+                      "White Pattern Marble",
+                      "Yellow Pattern Marble (cold)"
+                    ]
+                  },
+                  {
+                    "name": "Plastic Honeycomb",
+                    "data": [
+                      "Aged Beige Pattern Plastic",
+                      "Aged Beige Pattern Plastic (cold)",
+                      "Aged Blue Pattern Plastic",
+                      "Aged Blue Pattern Plastic (cold)",
+                      "Aged Gray Pattern Plastic",
+                      "Aged Green Pattern Plastic",
+                      "Aged Green Pattern Plastic (cold)",
+                      "Aged Orange Pattern Plastic",
+                      "Aged Orange Pattern Plastic (cold)",
+                      "Aged Red Pattern Plastic",
+                      "Aged Red Pattern Plastic (cold)",
+                      "Aged Yellow Pattern Plastic",
+                      "Aged Yellow Pattern Plastic (cold)",
+                      "Beige Pattern Plastic",
+                      "Beige Pattern Plastic (cold)",
+                      "Black Pattern Plastic",
+                      "Blue Pattern Plastic",
+                      "Blue Pattern Plastic (cold)",
+                      "Glossy Beige Plastic",
+                      "Glossy Beige Plastic (cold)",
+                      "Glossy Black Plastic",
+                      "Glossy Blue Plastic",
+                      "Glossy Blue Plastic (cold)",
+                      "Glossy Dark Beige Plastic",
+                      "Glossy Dark Beige Plastic (cold)",
+                      "Glossy Dark Blue Plastic",
+                      "Glossy Dark Blue Plastic (cold)",
+                      "Glossy Dark Gray Plastic",
+                      "Glossy Dark Green Plastic",
+                      "Glossy Dark Green Plastic (cold)",
+                      "Glossy Dark Orange Plastic",
+                      "Glossy Dark Orange Plastic (cold)",
+                      "Glossy Dark Red Plastic",
+                      "Glossy Dark Red Plastic (cold)",
+                      "Glossy Dark Yellow Plastic",
+                      "Glossy Dark Yellow Plastic (cold)",
+                      "Glossy Gray Plastic",
+                      "Glossy Green Plastic",
+                      "Glossy Green Plastic (cold)",
+                      "Glossy Light Beige Plastic",
+                      "Glossy Light Beige Plastic (cold)",
+                      "Glossy Light Blue Plastic",
+                      "Glossy Light Blue Plastic (cold)",
+                      "Glossy Light Gray Plastic",
+                      "Glossy Light Green Plastic",
+                      "Glossy Light Green Plastic (cold)",
+                      "Glossy Light Orange Plastic",
+                      "Glossy Light Orange Plastic (cold)",
+                      "Glossy Light Red Plastic",
+                      "Glossy Light Red Plastic (cold)",
+                      "Glossy Light Yellow Plastic",
+                      "Glossy Light Yellow Plastic (cold)",
+                      "Glossy Orange Plastic",
+                      "Glossy Orange Plastic (cold)",
+                      "Glossy Red Plastic",
+                      "Glossy Red Plastic (cold)",
+                      "Glossy White Plastic",
+                      "Glossy Yellow Plastic",
+                      "Gray Pattern Plastic",
+                      "Green Pattern Plastic",
+                      "Green Pattern Plastic (cold)",
+                      "Matte Beige Plastic",
+                      "Matte Beige Plastic (cold)",
+                      "Matte Black Plastic",
+                      "Matte Blue (cold) Plastic",
+                      "Matte Blue Plastic",
+                      "Matte Dark Beige Plastic",
+                      "Matte Dark Beige Plastic (cold)",
+                      "Matte Dark Blue Plastic",
+                      "Matte Dark Blue Plastic (cold)",
+                      "Matte Dark Gray Plastic",
+                      "Matte Dark Green Plastic",
+                      "Matte Dark Green Plastic (cold)",
+                      "Matte Dark Orange Plastic",
+                      "Matte Dark Orange Plastic (cold)",
+                      "Matte Dark Red Plastic",
+                      "Matte Dark Red Plastic (cold)",
+                      "Matte Dark Yellow Plastic",
+                      "Matte Dark Yellow Plastic (cold)",
+                      "Matte Gray Plastic",
+                      "Matte Green Plastic",
+                      "Matte Green Plastic (cold)",
+                      "Matte Light Beige Plastic",
+                      "Matte Light Beige Plastic (cold)",
+                      "Matte Light Blue Plastic",
+                      "Matte Light Blue Plastic (cold)",
+                      "Matte Light Gray Plastic",
+                      "Matte Light Green Plastic",
+                      "Matte Light Green Plastic (cold)",
+                      "Matte Light Orange Plastic",
+                      "Matte Light Orange Plastic (cold)",
+                      "Matte Light Red Plastic",
+                      "Matte Light Red Plastic (cold)",
+                      "Matte Light Yellow Plastic",
+                      "Matte Light Yellow Plastic (cold)",
+                      "Matte Orange Plastic",
+                      "Matte Orange Plastic (cold)",
+                      "Matte Red Plastic",
+                      "Matte Red Plastic (cold)",
+                      "Matte White Plastic",
+                      "Matte Yellow Plastic",
+                      "Matte Yellow Plastic (cold)",
+                      "Orange Pattern Plastic",
+                      "Orange Pattern Plastic (cold)",
+                      "Red Pattern Plastic",
+                      "Red Pattern Plastic (cold)",
+                      "Stained Beige Pattern Plastic",
+                      "Stained Beige Pattern Plastic (cold)",
+                      "Stained Blue Pattern Plastic",
+                      "Stained Blue Pattern Plastic (cold)",
+                      "Stained Gray Pattern Plastic",
+                      "Stained Green Pattern Plastic",
+                      "Stained Green Pattern Plastic (cold)",
+                      "Stained Orange Pattern Plastic",
+                      "Stained Orange Pattern Plastic (cold)",
+                      "Stained Red Pattern Plastic",
+                      "Stained Red Pattern Plastic (cold)",
+                      "Stained Yellow Pattern Plastic",
+                      "Stained Yellow Pattern Plastic (cold)",
+                      "White Pattern Plastic",
+                      "Yellow Pattern Plastic",
+                      "Yellow Pattern Plastic (cold)"
+                    ]
+                  },
+                  {
+                    "name": "Steel Honeycomb",
+                    "data": [
+                      "Aged Beige Pattern Steel",
+                      "Aged Blue Pattern Steel",
+                      "Aged Gray Pattern Steel",
+                      "Aged Green Pattern Steel",
+                      "Aged Orange Pattern Steel",
+                      "Aged Red Pattern Steel",
+                      "Aged Yellow Pattern Steel",
+                      "Beige Pattern Steel",
+                      "Black Pattern Steel",
+                      "Blue Pattern Steel",
+                      "Galvanized Beige Steel",
+                      "Galvanized Black Steel",
+                      "Galvanized Blue Steel",
+                      "Galvanized Dark Beige Steel",
+                      "Galvanized Dark Blue Steel",
+                      "Galvanized Dark Gray Steel",
+                      "Galvanized Dark Green Steel",
+                      "Galvanized Dark Orange Steel",
+                      "Galvanized Dark Red Steel",
+                      "Galvanized Dark Yellow Steel",
+                      "Galvanized Gray Steel",
+                      "Galvanized Green Steel",
+                      "Galvanized Light Beige Steel",
+                      "Galvanized Light Gray Steel",
+                      "Galvanized Light Green Steel",
+                      "Galvanized Light Orange Steel",
+                      "Galvanized Light Red Steel",
+                      "Galvanized Light Yellow Steel",
+                      "Galvanized Orange Steel",
+                      "Galvanized Red Steel",
+                      "Galvanized White Steel",
+                      "Galvanized Yellow Steel",
+                      "Gray Pattern Steel",
+                      "Green Pattern Steel",
+                      "Orange Pattern Steel",
+                      "Polished Beige Steel",
+                      "Polished Black Steel",
+                      "Polished Blue Steel",
+                      "Polished Dark Beige Steel",
+                      "Polished Dark Blue Steel",
+                      "Polished Dark Gray Steel",
+                      "Polished Dark Green Steel",
+                      "Polished Dark Orange Steel",
+                      "Polished Dark Red Steel",
+                      "Polished Dark Yellow Steel",
+                      "Polished Gray Steel",
+                      "Polished Green Steel",
+                      "Polished Light Beige Steel",
+                      "Polished Light Blue Steel",
+                      "Polished Light Gray Steel",
+                      "Polsihed Light Green Steel",
+                      "Polished Light Orange Steel",
+                      "Polished Light Red Steel",
+                      "Polished Light Yellow Steel",
+                      "Polished Orange Steel",
+                      "Polished Red Steel",
+                      "Polished White Steel",
+                      "Polished Yellow Steel",
+                      "Red Pattern Steel",
+                      "Stained Beige Pattern Steel",
+                      "Stained Blue Pattern Steel",
+                      "Stained Gray Pattern Steel",
+                      "Stained Green Pattern Steel",
+                      "Stained Orange Pattern Steel",
+                      "Stained Red Pattern Steel",
+                      "Stained Yellow Pattern Steel",
+                      "White Pattern Steel",
+                      "Yellow Pattern Steel"
+                    ]
+                  },
+                  {
+                    "name": "Wood Honeycomb",
+                    "data": [
+                      "Aged Brown Pattern Wood 1",
+                      "Aged Brown Pattern Wood 2",
+                      "Aged Brown Pattern Wood 3",
+                      "Aged Brown Pattern Wood 4",
+                      "Aged Gray Pattern Wood",
+                      "Black Pattern Wood",
+                      "Brown Pattern Wood 1",
+                      "Brown Pattern Wood 2",
+                      "Brown Pattern Wood 3",
+                      "Brown Pattern Wood 4",
+                      "Gray Pattern Wood",
+                      "Matte Black Wood",
+                      "Matte Brown Wood 1",
+                      "Matte Brown Wood 2",
+                      "Matte Brown Wood 3",
+                      "Matte Brown Wood 4",
+                      "Matte Dark Brown Wood 1",
+                      "Matte Dark Brown Wood 2",
+                      "Matte Dark Brown Wood 3",
+                      "Matte Dark Brown Wood 4",
+                      "Matte Dark Gray Wood",
+                      "Matte Gray Wood",
+                      "Matte Light Brown Wood 1",
+                      "Matte Light Brown Wood 2",
+                      "Matte Light Brown Wood 3",
+                      "Matte Light Brown Wood 4",
+                      "Matte Light Gray Wood",
+                      "Matte White Wood",
+                      "Polished Black Wood",
+                      "Polished Brown Wood 1",
+                      "Polished Brown Wood 2",
+                      "Polished Brown Wood 3",
+                      "Polished Brown Wood 4",
+                      "Polished Dark Brown Wood 1",
+                      "Polished Dark Brown Wood 2",
+                      "Polished Dark Brown Wood 3",
+                      "Polished Dark Brown Wood 4",
+                      "Polished Dark Gray Wood",
+                      "Polsihed Gray Wood",
+                      "Polished Light Brown Wood 1",
+                      "Polished Light Brown Wood 2",
+                      "Polished Light Brown Wood 3",
+                      "Polished Light Brown Wood 4",
+                      "Polished Light Gray Wood",
+                      "Polished White Wood",
+                      "Stained Brown Pattern Wood 1",
+                      "Stained Brown Pattern Wood 2",
+                      "Stained Brown Pattern Wood 3",
+                      "Stained Brown Pattern Wood 4",
+                      "Stained Gray Pattern Wood",
+                      "White Pattern Wood"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pure Honeycomb",
+                "data": [
+                  {
+                    "name": "Aluminium Honeycomb",
+                    "data": [
+                      "Aged Aluminium",
+                      "Aged Gray Aluminium",
+                      "Aluminium Painted Black",
+                      "Aluminium Painted DarkGray",
+                      "Aluminium Painted Gray",
+                      "Aluminium Painted Green",
+                      "Aluminium Painted Ice",
+                      "Aluminium Painted Light Gray",
+                      "Aluminium Painted Military",
+                      "Aluminium Painted Orange",
+                      "Aluminium Painted Purple",
+                      "Aluminium Painted Red",
+                      "Aluminium Painted Sky",
+                      "Aluminium Painted White",
+                      "Aluminium Painted Yellow",
+                      "Black Aluminium Panel",
+                      "Black Pattern Aluminium",
+                      "Dark Gray Aluminium Panel",
+                      "Galvanized Black Aluminium",
+                      "Galvanized Dark Gray Aluminium",
+                      "Galvanized Gray Aluminium",
+                      "Galvanized Light Gray Aluminium",
+                      "Galvanized White Aluminium",
+                      "Glossy Aluminium",
+                      "Gray Aluminium Panel",
+                      "Green Aluminium Panel",
+                      "Icy Aluminium Panel",
+                      "Light Gray Aluminium Panel",
+                      "Matte Aluminium",
+                      "Military Aluminium Panel",
+                      "Orange Aluminium Panel",
+                      "Polished Black Aluminium",
+                      "Polished Dark Gray Aluminium",
+                      "Polished Gray Aluminium",
+                      "Polished Light Gray Aluminium",
+                      "Polished White Aluminium",
+                      "Purple Aluminium Panel",
+                      "Red Aluminium Panel",
+                      "Sky Aluminium Panel",
+                      "Stained Gray Pattern Aluminium",
+                      "White Aluminium Panel",
+                      "White Aluminium Pattern",
+                      "Yellow Aluminium Panel",
+                      "Y Aluminium Pattern"
+                    ]
+                  },
+                  {
+                    "name": "Calcium Honeycomb",
+                    "data": [
+                      "Aged Calcium",
+                      "Black Calcium Panel",
+                      "Calcium Painted Black",
+                      "Calcium Painted Dark Gray",
+                      "Calcium Painted Gray",
+                      "Calcium Painted Green",
+                      "Calcium Painted Ice",
+                      "Calcium Painted LightGray",
+                      "Calcium Painted Military",
+                      "Calcium Painted Orange",
+                      "Calcium Painted Purple",
+                      "Calcium Painted Red",
+                      "Calcium Painted Sky",
+                      "Calcium Painted White",
+                      "Calcium Painted Yellow",
+                      "Dark Gray Calcium Panel",
+                      "Glossy Calcium",
+                      "Gray Calcium Panel",
+                      "Green Calcium Panel",
+                      "Ice Calcium Panel",
+                      "Light Gray Calcium Panel",
+                      "Matte Calcium",
+                      "Military Calcium Panel",
+                      "Orange Calcium Panel",
+                      "Purple Calcium Panel",
+                      "Red Calcium Panel",
+                      "Sky Calcium Panel",
+                      "White Calcium Panel",
+                      "Yellow Calcium Panel"
+                    ]
+                  },
+                  {
+                    "name": "Carbon Honeycomb",
+                    "data": [
+                      "Aged Carbon",
+                      "Black Carbon Panel",
+                      "Carbon Painted Black",
+                      "Carbon Painted Dark Gray",
+                      "Carbon Painted Gray",
+                      "Carbon Painted Green",
+                      "Carbon Painted Ice",
+                      "Carbon Painted Light Gray",
+                      "Carbon Painted Military",
+                      "Carbon Painted Orange",
+                      "Carbon Painted Purple",
+                      "Carbon Painted Red",
+                      "Carbon Painted Sky",
+                      "Carbon Painted White",
+                      "Carbon Painted Yellow",
+                      "Dark Gray Carbon Panel",
+                      "Glossy Carbon",
+                      "Gray Carbon Panel",
+                      "Green Carbon Panel",
+                      "Ice Carbon Panel",
+                      "Light Gray Carbon Panel",
+                      "Matte Carbon",
+                      "Military Carbon Panel",
+                      "Orange Carbon Panel",
+                      "Purple Carbon Panel",
+                      "Red Carbon Panel",
+                      "Sky Carbon Panel",
+                      "White Carbon Panel",
+                      "Yellow Carbon Panel"
+                    ]
+                  },
+                  {
+                    "name": "Chromium Honeycomb",
+                    "data": [
+                      "Aged Chromium",
+                      "Aged Gray Pattern Chromium",
+                      "Black Chromium Panel",
+                      "Black Pattern Chromium",
+                      "Chromium Painted Black",
+                      "Chromium Painted Dark Gray",
+                      "Chromium Painted Gray",
+                      "Chromium Painted Green",
+                      "Chromium Painted Ice",
+                      "Chromium Painted LightGray",
+                      "Chromium Painted Military",
+                      "Chromium Painted Orange",
+                      "Chromium Painted Purple",
+                      "Chromium Painted Red",
+                      "Chromium Painted Sky",
+                      "Chromium Painted White",
+                      "Chromium Painted Yellow",
+                      "Dark Gray Chromium Panel",
+                      "Galvanized Black Chromium",
+                      "Galvanized Dark Gray Chromium",
+                      "Galvanized Gray Chromium",
+                      "Galvanized Light Gray Chromium",
+                      "Galvanized White Chromium",
+                      "Glossy Chromium",
+                      "Gray Chromium Panel",
+                      "Gray Pattern Chromium",
+                      "Green Chromium Panel",
+                      "Ice Chromium Panel",
+                      "Light Gray Chromium Panel",
+                      "Matte Chromium",
+                      "Military Chromium Panel",
+                      "Orange Chromium Panel",
+                      "Polished Black Chromium",
+                      "Polished Dark Gray Chromium",
+                      "Polished Gray Chromium",
+                      "Polished Light Gray Chromium",
+                      "Polished White Chromium",
+                      "Purple Chromium Panel",
+                      "Red Chromium Panel",
+                      "Sky Chromium Panel",
+                      "Stained Gray Pattern Chromium",
+                      "White Chromium Panel",
+                      "White Pattern Chromium",
+                      "Yellow Chromium Panel"
+                    ]
+                  },
+                  {
+                    "name": "Cobalt Honeycomb",
+                    "data": [
+                      "Aged Cobalt",
+                      "Black Cobalt Panel",
+                      "Cobalt Painted Black",
+                      "Cobalt Painted Dark Gray",
+                      "Cobalt Painted Gray",
+                      "Cobalt Painted Green",
+                      "Cobalt Painted Ice",
+                      "Cobalt Painted Light Gray",
+                      "Cobalt Painted Military",
+                      "Cobalt Painted Orange",
+                      "Cobalt Painted Purple",
+                      "Cobalt Painted Red",
+                      "Cobalt Painted Sky",
+                      "Cobalt Painted White",
+                      "Cobalt Painted Yellow",
+                      "Dark Gray Cobalt Panel",
+                      "Glossy Cobalt",
+                      "Gray Cobalt Panel",
+                      "Green Cobalt Panel",
+                      "Ice Cobalt Panel",
+                      "Light Gray Cobalt Panel",
+                      "Matte Cobalt",
+                      "Military Cobalt Panel",
+                      "Orange Cobalt Panel",
+                      "Purple Cobalt Panel",
+                      "Red Cobalt Panel",
+                      "Sky Cobalt Panel",
+                      "White Cobalt Panel",
+                      "Yellow Cobalt Panel"
+                    ]
+                  },
+                  {
+                    "name": "Copper Honeycomb",
+                    "data": [
+                      "Aged Copper",
+                      "Aged Gray Copper",
+                      "Aged Gray Pattern Copper",
+                      "Black Copper Panel",
+                      "Black Pattern Copper",
+                      "Copper Painted Black",
+                      "Copper Painted Dark Gray",
+                      "Copper Painted Gray",
+                      "Copper Painted Green",
+                      "Copper Painted Ice",
+                      "Copper Painted Light Gray",
+                      "Copper Painted Military",
+                      "Copper Painted Orange",
+                      "Copper Painted Purple",
+                      "Copper Painted Red",
+                      "Copper Painted Sky",
+                      "Copper Painted White",
+                      "Copper Painted Yellow",
+                      "Dark Gray Copper Panel",
+                      "Galvanized Black Copper",
+                      "Galvanized Gray Copper",
+                      "Galvanized Light Gray Copper",
+                      "Galvanized White Copper",
+                      "Glossy Copper",
+                      "Gray Copper Panel",
+                      "Gray Pattern Copper",
+                      "Green Copper Panel",
+                      "Ice Copper Panel",
+                      "Light Gray Copper Panel",
+                      "Matte Copper",
+                      "Military Copper Panel",
+                      "Orange Copper Panel",
+                      "Polished Black Copper",
+                      "Polsihed Dark Gray Copper",
+                      "Polished Gray Copper",
+                      "Polished Light Gray Copper",
+                      "Polished White Copper",
+                      "Purple Copper Panel",
+                      "Red Copper Panel",
+                      "Sky Copper Panel",
+                      "Stained Gray Pattern Copper",
+                      "White Copper Panel",
+                      "White Pattern Copper",
+                      "YellowCopper Panel"
+                    ]
+                  },
+                  {
+                    "name": "Fluorine Honeycomb",
+                    "data": [
+                      "Aged Fluorine",
+                      "Black Fluorine Panel",
+                      "Dark Gray Fluorine Panel",
+                      "Fluorine Painted Black",
+                      "Fluorine Painted Dark Gray",
+                      "Fluorine Painted Gray",
+                      "Fluorine Painted Green",
+                      "Fluorine Painted Ice",
+                      "Fluorine Painted Light Gray",
+                      "Fluorine Painted Military",
+                      "Fluorine Painted Orange",
+                      "Fluorine Painted Purple",
+                      "Fluorine Painted Red",
+                      "Fluorine Painted Sky",
+                      "Fluorine Painted White",
+                      "Fluorine Painted Yellow",
+                      "Glossy Fluorine",
+                      "Gray Fluorine Panel",
+                      "Green Fluorine Panel",
+                      "Ice Fluorine Panel",
+                      "Light Gray Fluorine Panel",
+                      "Matte Fluorine",
+                      "Military Fluorine Panel",
+                      "Orange Fluorine Panel",
+                      "Purple Fluorine Panel",
+                      "Red Fluorine Panel",
+                      "Sky Fluorine Panel",
+                      "White Fluorine Panel",
+                      "Yellow Fluorine Panel"
+                    ]
+                  },
+                  {
+                    "name": "Gold Honeycomb",
+                    "data": [
+                      "Aged Gold",
+                      "Aged Gray Pattern Gold",
+                      "Black Gold Panel",
+                      "Black Pattern Gold",
+                      "Dark Gray Gold Panel",
+                      "Galvanized Black Gold",
+                      "Galvanized Dark Gray Gold",
+                      "Galvanized Gray Gold",
+                      "Galvanized Light Gray Gold",
+                      "Galvanized White Gold",
+                      "Glossy Gold",
+                      "Gold Painted Black",
+                      "Gold Painted Dark Gray",
+                      "Gold Painted Gray",
+                      "Gold Painted Green",
+                      "Gold Painted Ice",
+                      "Gold Painted Light Gray",
+                      "Gold Painted Military",
+                      "Gold Painted Orange",
+                      "Gold Painted Purple",
+                      "Gold Painted Red",
+                      "Gold Painted Sky",
+                      "Gold Painted White",
+                      "Gold Painted Yellow",
+                      "Gray Gold Panel",
+                      "Gray Pattern Gold",
+                      "Green Gold Panel",
+                      "Ice Gold Panel",
+                      "Light Gray Gold Panel",
+                      "Matte Gold",
+                      "Military Gold Panel",
+                      "Orange Gold Panel",
+                      "Polished Black Gold",
+                      "Polished Dark Gray Gold",
+                      "Polished Gray Gold",
+                      "Polished Light Gray Gold",
+                      "Polished White Gold",
+                      "Purple Gold Panel",
+                      "Red Gold Panel",
+                      "Sky Gold Panel",
+                      "Stained Gray Pattern Gold",
+                      "White Gold Panel",
+                      "White Pattern Gold",
+                      "Yellow Gold Panel"
+                    ]
+                  },
+                  {
+                    "name": "Iron Honeycomb",
+                    "data": [
+                      "Aged Gray Pattern Iron",
+                      "Black Pattern Iron",
+                      "Galvanized Black Iron",
+                      "Galvanized Dark Gray Iron",
+                      "Galvanized Gray Iron",
+                      "Galvanized Light Gray Iron",
+                      "Galvanized White Iron",
+                      "Gray Pattern Iron",
+                      "Iron Aged",
+                      "Iron Glossy",
+                      "Iron Matte",
+                      "Iron Painted Black",
+                      "Iron Painted DarkGray",
+                      "Iron Painted Gray",
+                      "Iron Painted Green",
+                      "Iron Painted Ice",
+                      "Iron Painted LightGray",
+                      "Iron Painted Military",
+                      "Iron Painted Orange",
+                      "Iron Painted Purple",
+                      "Iron Painted Red",
+                      "Iron Painted Sky",
+                      "Iron Painted White",
+                      "Iron Painted Yellow",
+                      "Iron Panel Black",
+                      "Iron Panel DarkGray",
+                      "Iron Panel Gray",
+                      "Iron Panel Green",
+                      "Iron Panel Ice",
+                      "Iron Panel LightGray",
+                      "Iron Panel Military",
+                      "Iron Panel Orange",
+                      "Iron Panel Purple",
+                      "Iron Panel Red",
+                      "Iron Panel Sky",
+                      "Iron Panel White",
+                      "Iron Panel Yellow",
+                      "Polished Black Iron",
+                      "Polished Dark Gray Iron",
+                      "Polished Gray Iron",
+                      "Polished Light Gray Iron",
+                      "Polished White Iron",
+                      "Stained Gray Pattern Iron",
+                      "White Pattern Iron"
+                    ]
+                  },
+                  {
+                    "name": "Lithium Honeycomb",
+                    "data": [
+                      "Lithium Aged",
+                      "Lithium Glossy",
+                      "Lithium Matte",
+                      "Lithium Painted Black",
+                      "Lithium Painted DarkGray",
+                      "Lithium Painted Gray",
+                      "Lithium Painted Green",
+                      "Lithium Painted Ice",
+                      "Lithium Painted LightGray",
+                      "Lithium Painted Military",
+                      "Lithium Painted Orange",
+                      "Lithium Painted Purple",
+                      "Lithium Painted Red",
+                      "Lithium Painted Sky",
+                      "Lithium Painted White",
+                      "Lithium Painted Yellow",
+                      "Lithium Panel Black",
+                      "Lithium Panel DarkGray",
+                      "Lithium Panel Gray",
+                      "Lithium Panel Green",
+                      "Lithium Panel Ice",
+                      "Lithium Panel LightGray",
+                      "Lithium Panel Military",
+                      "Lithium Panel Orange",
+                      "Lithium Panel Purple",
+                      "Lithium Panel Red",
+                      "Lithium Panel Sky",
+                      "Lithium Panel White",
+                      "Lithium Panel Yellow"
+                    ]
+                  },
+                  {
+                    "name": "Manganese Honeycomb",
+                    "data": [
+                      "Manganese Aged",
+                      "Manganese Glossy",
+                      "Manganese Matte",
+                      "Manganese Painted Black",
+                      "Manganese Painted DarkGray",
+                      "Manganese Painted Gray",
+                      "Manganese Painted Green",
+                      "Manganese Painted Ice",
+                      "Manganese Painted LightGray",
+                      "Manganese Painted Military",
+                      "Manganese Painted Orange",
+                      "Manganese Painted Purple",
+                      "Manganese Painted Red",
+                      "Manganese Painted Sky",
+                      "Manganese Painted White",
+                      "Manganese Painted Yellow",
+                      "Manganese Panel Black",
+                      "Manganese Panel DarkGray",
+                      "Manganese Panel Gray",
+                      "Manganese Panel Green",
+                      "Manganese Panel Ice",
+                      "Manganese Panel LightGray",
+                      "Manganese Panel Military",
+                      "Manganese Panel Orange",
+                      "Manganese Panel Purple",
+                      "Manganese Panel Red",
+                      "Manganese Panel Sky",
+                      "Manganese Panel White",
+                      "Manganese Panel Yellow"
+                    ]
+                  },
+                  {
+                    "name": "Nickel Honeycomb",
+                    "data": [
+                      "Nickel Aged",
+                      "Nickel Glossy",
+                      "Nickel Matte",
+                      "Nickel Painted Black",
+                      "Nickel Painted DarkGray",
+                      "Nickel Painted Gray",
+                      "Nickel Painted Green",
+                      "Nickel Painted Ice",
+                      "Nickel Painted LightGray",
+                      "Nickel Painted Military",
+                      "Nickel Painted Orange",
+                      "Nickel Painted Purple",
+                      "Nickel Painted Red",
+                      "Nickel Painted Sky",
+                      "Nickel Painted White",
+                      "Nickel Painted Yellow",
+                      "Nickel Panel Black",
+                      "Nickel Panel DarkGray",
+                      "Nickel Panel Gray",
+                      "Nickel Panel Green",
+                      "Nickel Panel Ice",
+                      "Nickel Panel LightGray",
+                      "Nickel Panel Military",
+                      "Nickel Panel Orange",
+                      "Nickel Panel Purple",
+                      "Nickel Panel Red",
+                      "Nickel Panel Sky",
+                      "Nickel Panel White",
+                      "Nickel Panel Yellow"
+                    ]
+                  },
+                  {
+                    "name": "Niobium Honeycomb",
+                    "data": [
+                      "Niobium Aged",
+                      "Niobium Glossy",
+                      "Niobium Matte",
+                      "Niobium Painted Black",
+                      "Niobium Painted DarkGray",
+                      "Niobium Painted Gray",
+                      "Niobium Painted Green",
+                      "Niobium Painted Ice",
+                      "Niobium Painted LightGray",
+                      "Niobium Painted Military",
+                      "Niobium Painted Orange",
+                      "Niobium Painted Purple",
+                      "Niobium Painted Red",
+                      "Niobium Painted Sky",
+                      "Niobium Painted White",
+                      "Niobium Painted Yellow",
+                      "Niobium Panel Black",
+                      "Niobium Panel DarkGray",
+                      "Niobium Panel Gray",
+                      "Niobium Panel Green",
+                      "Niobium Panel Ice",
+                      "Niobium Panel LightGray",
+                      "Niobium Panel Military",
+                      "Niobium Panel Orange",
+                      "Niobium Panel Purple",
+                      "Niobium Panel Red",
+                      "Niobium Panel Sky",
+                      "Niobium Panel White",
+                      "Niobium Panel Yellow"
+                    ]
+                  },
+                  {
+                    "name": "Scandium Honeycomb",
+                    "data": [
+                      "Scandium Aged",
+                      "Scandium Glossy",
+                      "Scandium Matte",
+                      "Scandium Painted Black",
+                      "Scandium Painted DarkGray",
+                      "Scandium Painted Gray",
+                      "Scandium Painted Green",
+                      "Scandium Painted Ice",
+                      "Scandium Painted LightGray",
+                      "Scandium Painted Military",
+                      "Scandium Painted Orange",
+                      "Scandium Painted Purple",
+                      "Scandium Painted Red",
+                      "Scandium Painted Sky",
+                      "Scandium Painted White",
+                      "Scandium Painted Yellow",
+                      "Scandium Panel Black",
+                      "Scandium Panel DarkGray",
+                      "Scandium Panel Gray",
+                      "Scandium Panel Green",
+                      "Scandium Panel Ice",
+                      "Scandium Panel LightGray",
+                      "Scandium Panel Military",
+                      "Scandium Panel Orange",
+                      "Scandium Panel Purple",
+                      "Scandium Panel Red",
+                      "Scandium Panel Sky",
+                      "Scandium Panel White",
+                      "Scandium Panel Yellow"
+                    ]
+                  },
+                  {
+                    "name": "Silicon Honeycomb",
+                    "data": [
+                      "Silicon Aged",
+                      "Silicon Glossy",
+                      "Silicon Matte",
+                      "Silicon Painted Black",
+                      "Silicon Painted DarkGray",
+                      "Silicon Painted Gray",
+                      "Silicon Painted Green",
+                      "Silicon Painted Ice",
+                      "Silicon Painted LightGray",
+                      "Silicon Painted Military",
+                      "Silicon Painted Orange",
+                      "Silicon Painted Purple",
+                      "Silicon Painted Red",
+                      "Silicon Painted Sky",
+                      "Silicon Painted White",
+                      "Silicon Painted Yellow",
+                      "Silicon Panel Black",
+                      "Silicon Panel DarkGray",
+                      "Silicon Panel Gray",
+                      "Silicon Panel Green",
+                      "Silicon Panel Ice",
+                      "Silicon Panel LightGray",
+                      "Silicon Panel Military",
+                      "Silicon Panel Orange",
+                      "Silicon Panel Purple",
+                      "Silicon Panel Red",
+                      "Silicon Panel Sky",
+                      "Silicon Panel White",
+                      "Silicon Panel Yellow"
+                    ]
+                  },
+                  {
+                    "name": "Silver Honeycomb",
+                    "data": [
+                      "Silver Aged",
+                      "Silver Glossy",
+                      "Silver Matte",
+                      "Silver Painted Black",
+                      "Silver Painted DarkGray",
+                      "Silver Painted Gray",
+                      "Silver Painted Green",
+                      "Silver Painted Ice",
+                      "Silver Painted LightGray",
+                      "Silver Painted Military",
+                      "Silver Painted Orange",
+                      "Silver Painted Purple",
+                      "Silver Painted Red",
+                      "Silver Painted Sky",
+                      "Silver Painted White",
+                      "Silver Painted Yellow",
+                      "Silver Panel Black",
+                      "Silver Panel DarkGray",
+                      "Silver Panel Gray",
+                      "Silver Panel Green",
+                      "Silver Panel Ice",
+                      "Silver Panel LightGray",
+                      "Silver Panel Military",
+                      "Silver Panel Orange",
+                      "Silver Panel Purple",
+                      "Silver Panel Red",
+                      "Silver Panel Sky",
+                      "Silver Panel White",
+                      "Silver Panel Yellow"
+                    ]
+                  },
+                  {
+                    "name": "Sodium Honeycomb",
+                    "data": [
+                      "Sodium Aged",
+                      "Sodium Glossy",
+                      "Sodium Matte",
+                      "Sodium Painted Black",
+                      "Sodium Painted DarkGray",
+                      "Sodium Painted Gray",
+                      "Sodium Painted Green",
+                      "Sodium Painted Ice",
+                      "Sodium Painted LightGray",
+                      "Sodium Painted Military",
+                      "Sodium Painted Orange",
+                      "Sodium Painted Purple",
+                      "Sodium Painted Red",
+                      "Sodium Painted Sky",
+                      "Sodium Painted White",
+                      "Sodium Painted Yellow",
+                      "Sodium Panel Black",
+                      "Sodium Panel DarkGray",
+                      "Sodium Panel Gray",
+                      "Sodium Panel Green",
+                      "Sodium Panel Ice",
+                      "Sodium Panel LightGray",
+                      "Sodium Panel Military",
+                      "Sodium Panel Orange",
+                      "Sodium Panel Purple",
+                      "Sodium Panel Red",
+                      "Sodium Panel Sky",
+                      "Sodium Panel White",
+                      "Sodium Panel Yellow"
+                    ]
+                  },
+                  {
+                    "name": "Sulfur Honeycomb",
+                    "data": [
+                      "Sulfur Aged",
+                      "Sulfur Glossy",
+                      "Sulfur Matte",
+                      "Sulfur Painted Black",
+                      "Sulfur Painted DarkGray",
+                      "Sulfur Painted Gray",
+                      "Sulfur Painted Green",
+                      "Sulfur Painted Ice",
+                      "Sulfur Painted LightGray",
+                      "Sulfur Painted Military",
+                      "Sulfur Painted Orange",
+                      "Sulfur Painted Purple",
+                      "Sulfur Painted Red",
+                      "Sulfur Painted Sky",
+                      "Sulfur Painted White",
+                      "Sulfur Painted Yellow",
+                      "Sulfur Panel Black",
+                      "Sulfur Panel DarkGray",
+                      "Sulfur Panel Gray",
+                      "Sulfur Panel Green",
+                      "Sulfur Panel Ice",
+                      "Sulfur Panel LightGray",
+                      "Sulfur Panel Military",
+                      "Sulfur Panel Orange",
+                      "Sulfur Panel Purple",
+                      "Sulfur Panel Red",
+                      "Sulfur Panel Sky",
+                      "Sulfur Panel White",
+                      "Sulfur Panel Yellow"
+                    ]
+                  },
+                  {
+                    "name": "Titanium Honeycomb",
+                    "data": [
+                      "Aged Gray Pattern Titanium",
+                      "Black Pattern Titanium",
+                      "Galvanized Black Titanium",
+                      "Galvanized Dark Gray Titanium",
+                      "Galvanized Gray Titanium",
+                      "Galvanized Light Gray Titanium",
+                      "Galvanized White Titanium",
+                      "Gray Pattern Titanium",
+                      "Polished Black Titanium",
+                      "Polished Dark Gray Titanium",
+                      "Polished Gray Titanium",
+                      "Polished Light Gray Titanium",
+                      "Stained Gray Pattern Titanium",
+                      "Titanium Aged",
+                      "Titanium Glossy",
+                      "Titanium Matte",
+                      "Titanium Painted Black",
+                      "Titanium Painted DarkGray",
+                      "Titanium Painted Gray",
+                      "Titanium Painted Green",
+                      "Titanium Painted Ice",
+                      "Titanium Painted LightGray",
+                      "Titanium Painted Military",
+                      "Titanium Painted Orange",
+                      "Titanium Painted Purple",
+                      "Titanium Painted Red",
+                      "Titanium Painted Sky",
+                      "Titanium Painted White",
+                      "Titanium Painted Yellow",
+                      "Titanium Panel Black",
+                      "Titanium Panel DarkGray",
+                      "Titanium Panel Gray",
+                      "Titanium Panel Green",
+                      "Titanium Panel Ice",
+                      "Titanium Panel LightGray",
+                      "Titanium Panel Military",
+                      "Titanium Panel Orange",
+                      "Titanium Panel Purple",
+                      "Titanium Panel Red",
+                      "Titanium Panel Sky",
+                      "Titanium Panel White",
+                      "Titanium Panel Yellow",
+                      "White Pattern Titanium"
+                    ]
+                  },
+                  {
+                    "name": "Vanadium Honeycomb",
+                    "data": [
+                      "Vanadium Aged",
+                      "Vanadium Glossy",
+                      "Vanadium Matte",
+                      "Vanadium Painted Black",
+                      "Vanadium Painted DarkGray",
+                      "Vanadium Painted Gray",
+                      "Vanadium Painted Green",
+                      "Vanadium Painted Ice",
+                      "Vanadium Painted LightGray",
+                      "Vanadium Painted Military",
+                      "Vanadium Painted Orange",
+                      "Vanadium Painted Purple",
+                      "Vanadium Painted Red",
+                      "Vanadium Painted Sky",
+                      "Vanadium Painted White",
+                      "Vanadium Painted Yellow",
+                      "Vanadium Panel Black",
+                      "Vanadium Panel DarkGray",
+                      "Vanadium Panel Gray",
+                      "Vanadium Panel Green",
+                      "Vanadium Panel Ice",
+                      "Vanadium Panel LightGray",
+                      "Vanadium Panel Military",
+                      "Vanadium Panel Orange",
+                      "Vanadium Panel Purple",
+                      "Vanadium Panel Red",
+                      "Vanadium Panel Sky",
+                      "Vanadium Panel White",
+                      "Vanadium Panel Yellow"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Product",
+            "tag": "industry",
+            "data": [
+              "Advanced Glass",
+              "Ag-Li Reinforced Glass",
+              "Al-Fe Alloy",
+              "Al-Li Alloy",
+              "Biologic Matter",
+              "Brick",
+              "Calcium Reinforced Copper",
+              "Carbon Fiber",
+              "Cu-Ag Alloy",
+              "Concrete",
+              "Duralumin",
+              "Fluoropolymer",
+              "Glass",
+              "Gold Coated Glass",
+              "Grade 5 Titanium Alloy",
+              "Inconel",
+              "Mangalloy",
+              "Manganese Reinforced Glass",
+              "Maraging Steel",
+              "Marble",
+              "Polycalcite Plastic",
+              "Polycarbonate Plastic",
+              "Polysulfide Plastic",
+              "Red Gold",
+              "Sc-Al Alloy",
+              "Silumin",
+              "Stainless Steel",
+              "Steel",
+              "Ti-Nb Supraconductor",
+              "Vanamer",
+              "Wood"
+            ]
+          },
+          {
+            "name": "Pure",
+            "tag": "industry",
+            "data": [
+              "Aluminium Pure",
+              "Calcium Pure",
+              "Carbon Pure",
+              "Chromium Pure",
+              "Cobalt Pure",
+              "Copper Pure",
+              "Gold Pure",
+              "Iron Pure",
+              "Fluorine Pure",
+              "Lithium Pure",
+              "Manganese Pure",
+              "Nickel Pure",
+              "Niobium Pure",
+              "Scandium Pure",
+              "Silicon Pure",
+              "Silver Pure",
+              "Sodium Pure",
+              "Sulfur Pure",
+              "Titanium Pure",
+              "Vanadium Pure"
+            ]
+          },
+          {
+            "name": "Ore",
+            "tag": "industry",
+            "data": [
+              "Acanthite",
+              "Bauxite",
+              "Chromite",
+              "Coal",
+              "Cobaltite",
+              "Columbite",
+              "Cryolite",
+              "Garnierite",
+              "Gold Nuggets",
+              "Hematite",
+              "Illmenite",
+              "Kolbeckite",
+              "Limestone",
+              "Malachite",
+              "Natron",
+              "Petalite",
+              "Pyrite",
+              "Quartz",
+              "Rhodonite",
+              "Vanadinite"
+            ]
+          },
+          {
+            "name": "Scraps",
+            "tag": "industry",
+            "data": [
+              "Aluminium Scrap",
+              "Calcium Scrap",
+              "Carbon Scrap",
+              "Chromium Scrap",
+              "Cobalt Scrap",
+              "Copper Scrap",
+              "Gold Scrap",
+              "Iron Scrap",
+              "Fluorine Scrap",
+              "Lithium Scrap",
+              "Nickel Scrap",
+              "Scandium Scrap",
+              "Silicon Scrap",
+              "Silver Scrap",
+              "Sodium Scrap",
+              "Sulfur Scrap"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Parts",
+        "tag": "industry",
+        "data": [
+          {
+            "name": "Complex Parts",
+            "data": [
+              {
+                "name": "Anti-Matter Capsules",
+                "data": [
+                  "Basic Anti-Matter Capsule",
+                  "Uncommon Anti-Matter Capsule",
+                  "Advanced Anti-Matter Capsule",
+                  "Rare Anti-Matter Capsule",
+                  "Exotic Anti-Matter Capsule"
+                ]
+              },
+              {
+                "name": "Burners",
+                "data": [
+                  "Basic Burner",
+                  "Uncommon Burner",
+                  "Advanced Burner"
+                ]
+              },
+              {
+                "name": "Electronics",
+                "data": [
+                  "Basic Electronics",
+                  "Uncommon Electronics",
+                  "Advanced Electronics",
+                  "Rare Electronics",
+                  "Exotic Electronics"
+                ]
+              },
+              {
+                "name": "Explosive Modules",
+                "data": [
+                  "Basic Explosive Module",
+                  "Uncommon Explosive Module",
+                  "Advanced Explosive Module"
+                ]
+              },
+              {
+                "name": "Hydraulics",
+                "data": [
+                  "Basic Hydraulics",
+                  "Uncommon Hydraulics",
+                  "Advanced Hydraulics"
+                ]
+              },
+              {
+                "name": "Injectors",
+                "data": [
+                  "Basic Injector",
+                  "Advanced Injector"
+                ]
+              },
+              {
+                "name": "Magnets",
+                "data": [
+                  "Basic Magnet",
+                  "Uncommon Magnet",
+                  "Advanced Magnet",
+                  "Rare Magnet",
+                  "Exotic Magnet"
+                ]
+              },
+              {
+                "name": "Optics",
+                "data": [
+                  "Basic Optics",
+                  "Uncommon Optics",
+                  "Advanced Optics",
+                  "Rare Optics"
+                ]
+              },
+              {
+                "name": "Power Systems",
+                "data": [
+                  "Basic Power System",
+                  "Uncommon Power System",
+                  "Advanced Power System",
+                  "Rare Power System",
+                  "Exotic Power System"
+                ]
+              },
+              {
+                "name": "Processors",
+                "data": [
+                  "Basic Processor",
+                  "Uncommon Processor",
+                  "Advanced Processor",
+                  "Exotic Processor"
+                ]
+              },
+              {
+                "name": "Quantum Cores",
+                "data": [
+                  "Basic Quantum Core",
+                  "Uncommon Quantum Core",
+                  "Advanced Quantum Core",
+                  "Rare Quantum Core",
+                  "Exotic Quantum Core"
+                ]
+              },
+              {
+                "name": "Singularity Containers",
+                "data": [
+                  "Basic Singularity Container",
+                  "Uncommon Singularity Container",
+                  "Advanced Singularity Container",
+                  "Rare Singularity Container",
+                  "Exotic Singularity Container"
+                ]
+              },
+              {
+                "name": "Solid Warhead",
+                "data": [
+                  "Uncommon Solid Warhead",
+                  "Advanced Solid Warhead"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Exceptional Parts",
+            "data": [
+              {
+                "name": "Anti-Gravity Cores",
+                "data": [
+                  "Advanced Anti-Gravity Core",
+                  "Rare Anti-Gravity Core",
+                  "Exotic Anti-Gravity Core"
+                ]
+              },
+              {
+                "name": "Anti-Matter Cores",
+                "data": [
+                  "Exotic Anti-Matter Core"
+                ]
+              },
+              {
+                "name": "Quantum Alignment Units",
+                "data": [
+                  "Advanced Quantum Alignment Unit",
+                  "Exotic Quantum Alignment Unit"
+                ]
+              },
+              {
+                "name": "Quantum Barriers",
+                "data": [
+                  "Advanced Quantum Barrier"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Intermediary Parts",
+            "data": [
+              {
+                "name": "Components",
+                "data": [
+                  "Basic Component",
+                  "Uncommon Component",
+                  "Advanced Component"
+                ]
+              },
+              {
+                "name": "Connectors",
+                "data": [
+                  "Basic Connector",
+                  "Uncommon Connector",
+                  "Advanced Connector"
+                ]
+              },
+              {
+                "name": "Fixations",
+                "data": [
+                  "Basic Fixation",
+                  "Uncommon Fixation",
+                  "Advanced Fixation"
+                ]
+              },
+              {
+                "name": "LEDs",
+                "data": [
+                  "Basic LED",
+                  "Uncommon LED",
+                  "Advanced LED"
+                ]
+              },
+              {
+                "name": "Pipes",
+                "data": [
+                  "Basic Pipe",
+                  "Uncommon Pipe",
+                  "Advanced Pipe"
+                ]
+              },
+              {
+                "name": "Screws",
+                "data": [
+                  "Basic Screw",
+                  "Uncommon Screw",
+                  "Advanced Screw"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Functional Parts",
+            "data": [
+              {
+                "name": "Antennas",
+                "data": [
+                  "Basic Antenna XS",
+                  "Basic Antenna S",
+                  "Uncommon Antenna S",
+                  "Uncommon Antenna M",
+                  "Uncommon Antenna L",
+                  "Exotic Antenna M",
+                  "Exotic Antenna L",
+                  "Exotic Antenna XL"
+                ]
+              },
+              {
+                "name": "Chemical Containers",
+                "data": [
+                  "Basic Chemical Container XS",
+                  "Basic Chemical Container S",
+                  "Basic Chemical Container M",
+                  "Basic Chemical Container L",
+                  "Basic Chemical Container XL",
+                  "Advanced Chemical Container S",
+                  "Advanced Chemical Container M",
+                  "Advanced Chemical Container L",
+                  "Advanced Chemical Container XL"
+                ]
+              },
+              {
+                "name": "Combustion Chambers",
+                "data": [
+                  "Basic Combustion Chamber XS",
+                  "Basic Combustion Chamber S",
+                  "Basic Combustion Chamber M",
+                  "Basic Combustion Chamber L",
+                  "Advanced Combustion Chamber XS",
+                  "Advanced Combustion Chamber S",
+                  "Advanced Combustion Chamber M"
+                ]
+              },
+              {
+                "name": "Control Systems",
+                "data": [
+                  "Basic Control System XS",
+                  "Basic Control System S",
+                  "Basic Control System M",
+                  "Advanced Control System S",
+                  "Advanced Control System M",
+                  "Advanced Control System L"
+                ]
+              },
+              {
+                "name": "Core Systems",
+                "data": [
+                  "Basic Core System XS",
+                  "Basic Core System S",
+                  "Uncommon Core System S",
+                  "Uncommon Core System M",
+                  "Uncommon Core System L",
+                  "Advanced Core System M",
+                  "Rare Core System L",
+                  "Exotic Core System S"
+                ]
+              },
+              {
+                "name": "Electric Engines",
+                "data": [
+                  "Basic Electric Engine S",
+                  "Basic Electric Engine M",
+                  "Uncommon Electric Engine XL"
+                ]
+              },
+              {
+                "name": "Firing Systems",
+                "data": [
+                  "Basic Firing System XS",
+                  "Advanced Firing System XS",
+                  "Advanced Firing System S",
+                  "Advanced Firing System M",
+                  "Advanced Firing System L"
+                ]
+              },
+              {
+                "name": "Gas Cylinders",
+                "data": [
+                  "Basic Gas Cylinder XS",
+                  "Basic Gas Cylinder S",
+                  "Basic Gas Cylinder M"
+                ]
+              },
+              {
+                "name": "Ionic Chambers",
+                "data": [
+                  "Basic Ionic Chamber XS",
+                  "Basic Ionic Chamber S",
+                  "Basic Ionic Chamber M",
+                  "Basic Ionic Chamber L",
+                  "Basic Ionic Chamber XL",
+                  "Advanced Ionic Chamber M"
+                ]
+              },
+              {
+                "name": "Laser Chambers",
+                "data": [
+                  "Uncommon Laser Chamber XS",
+                  "Advanced Laser Chamber XS",
+                  "Advanced Laser Chamber S",
+                  "Advanced Laser Chamber M",
+                  "Advanced Laser Chamber L",
+                  "Rare Laser Chamber S"
+                ]
+              },
+              {
+                "name": "Lights",
+                "data": [
+                  "Uncommon Light XS",
+                  "Uncommon Light S"
+                ]
+              },
+              {
+                "name": "Magnetic Rails",
+                "data": [
+                  "Advanced Magnetic Rail XS",
+                  "Advanced Magnetic Rail S",
+                  "Advanced Magnetic Rail M",
+                  "Advanced Magnetic Rail L"
+                ]
+              },
+              {
+                "name": "Mechanical Sensors",
+                "data": [
+                  "Basic Mechanical Sensor XS",
+                  "Advanced Mechanical Sensor XS",
+                  "Exotic Mechanical Sensor XS"
+                ]
+              },
+              {
+                "name": "Missile Silos",
+                "data": [
+                  "Advanced Missile Silo XS",
+                  "Advanced Missile Silo S",
+                  "Advanced Missile Silo M",
+                  "Advanced Missile Silo L"
+                ]
+              },
+              {
+                "name": "Mobile Panels",
+                "data": [
+                  "Basic Mobile Panel XS",
+                  "Basic Mobile Panel S",
+                  "Basic Mobile Panel M",
+                  "Basic Mobile Panel L",
+                  "Basic Mobile Panel XL"
+                ]
+              },
+              {
+                "name": "Motherboards",
+                "data": [
+                  "Advanced Motherboard M"
+                ]
+              },
+              {
+                "name": "Ore Scanners",
+                "data": [
+                  "Uncommon Ore Scanner XL"
+                ]
+              },
+              {
+                "name": "Power Converters",
+                "data": [
+                  "Basic Power Converter M",
+                  "Advanced Power Converter S",
+                  "Rare Power Converter L",
+                  "Rare Power Converter XL",
+                  "Exotic Power Converter L"
+                ]
+              },
+              {
+                "name": "Robotic Arms",
+                "data": [
+                  "Basic Robotic Arm M",
+                  "Basic Robotic Arm L",
+                  "Basic Robotic Arm XL"
+                ]
+              },
+              {
+                "name": "Screens",
+                "data": [
+                  "Basic Screen M",
+                  "Uncommon Screen XS",
+                  "Uncommon Screen XL",
+                  "Advanced Screen XS"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Structural Parts",
+            "data": [
+              {
+                "name": "Casings",
+                "data": [
+                  "Basic Casing XS",
+                  "Basic Casing S",
+                  "Basic Casing M",
+                  "Basic Casing L",
+                  "Uncommon Casing XS",
+                  "Uncommon Casing S",
+                  "Uncommon Casing M",
+                  "Uncommon Casing L",
+                  "Uncommon Casing XL",
+                  "Advanced Casing XS",
+                  "Advanced Casing S",
+                  "Advanced Casing M",
+                  "Advanced Casing L",
+                  "Advanced Casing XL",
+                  "Rare Casing XS",
+                  "Rare Casing S",
+                  "Exotic Casing S"
+                ]
+              },
+              {
+                "name": "Reinforced Frames",
+                "data": [
+                  "Basic Reinforced Frame XS",
+                  "Basic Reinforced Frame S",
+                  "Basic Reinforced Frame M",
+                  "Basic Reinforced Frame L",
+                  "Basic Reinforced Frame XL",
+                  "Uncommon Reinforced Frame XS",
+                  "Uncommon Reinforced Frame S",
+                  "Uncommon Reinforced Frame M",
+                  "Uncommon Reinforced Frame L",
+                  "Uncommon Reinforced Frame XL",
+                  "Advanced Reinforced Frame XS",
+                  "Advanced Reinforced Frame S",
+                  "Advanced Reinforced Frame M",
+                  "Advanced Reinforced Frame L",
+                  "Rare Reinforced Frame L",
+                  "Rare Reinforced Frame XL",
+                  "Exotic Reinforced Frame M",
+                  "Exotic Reinforced Frame L",
+                  "Exotic Reinforced Frame XL"
+                ]
+              },
+              {
+                "name": "Standard Frames",
+                "data": [
+                  "Basic Standard Frame XS",
+                  "Basic Standard Frame S",
+                  "Basic Standard Frame M",
+                  "Basic Standard Frame L",
+                  "Uncommon Standard Frame XS",
+                  "Uncommon Standard Frame S",
+                  "Uncommon Standard Frame M",
+                  "Uncommon Standard Frame L",
+                  "Advanced Standard Frame XS",
+                  "Advanced Standard Frame S",
+                  "Advanced Standard Frame M",
+                  "Advanced Standard Frame L",
+                  "Rare Standard Frame L",
+                  "Exotic Standard Frame XS",
+                  "Exotic Standard Frame L"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

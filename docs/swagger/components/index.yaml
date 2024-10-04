@@ -1,0 +1,11 @@
+securitySchemes:
+  ApiKeyAuth:
+    type: apiKey
+    in: header
+    name: X-Token
+parameters:
+  $ref: ./parameters.yaml
+responses:
+  $ref: ./responses.yaml
+schemas:
+  $ref: ./schemas.yaml

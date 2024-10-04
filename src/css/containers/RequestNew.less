@@ -1,0 +1,79 @@
+@import "../colors.less";
+
+.RequestNew {
+  text-align: left;
+
+  .RequestNew-tree {
+    background-color: transparent;
+  }
+
+  .ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected {
+    background-color: @color-transparent;
+  }
+  
+  .ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected .element {
+    color: @color-blue-dark;
+    font-weight: bolder;
+  }
+
+  .available-header {
+    display: inline-block;
+  }
+
+  .RequestNew-add-button {
+    float: right;
+  }
+
+  .ant-table-tbody > tr > td {
+    padding: 5px;
+  }
+
+  .RequestNew-delete-action {
+    margin-right: 1em;
+  }
+
+  .RequestNew-details {
+    display: inline-flex;
+    margin-top : 1em;
+    width: 100%;
+    height: max-content;
+    white-space: nowrap;
+
+    .input-details {
+      display: inline-flex;
+      align-items: center;
+      margin-right: 1em;
+    }
+  }
+
+  .RequestNew-type {
+    margin-top: 4%;
+    font-size: 1.5em;
+    text-align: center;
+    border: 2px solid @color-background-grey;
+    border-radius: 4px;
+    
+  
+    h3 {
+      background-color: @color-background-grey;
+      padding: 1%;
+      color: @color-text-light;
+    }
+
+    span {
+      font-size: 125%;
+    }
+
+    .ant-radio-button-wrapper {
+      color:  @color-text-light;
+      padding: 1em 2em;
+      margin: 1em;
+      background-color: @color-background-grey;
+      height: auto;
+    }
+
+    .ant-radio-button-wrapper-checked {
+      background-color: #40a9ff;
+    }
+  }
+}

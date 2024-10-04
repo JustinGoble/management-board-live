@@ -1,0 +1,36 @@
+@import "../colors.less";
+
+.ShipCategoryForm {
+  text-align: left;
+  width: 25em;
+  padding: 1em;
+  margin: 0.5em;
+  background-color: @color-background-grey;
+  color: @color-text-light;
+  border-radius: 4px;
+
+  .ShipCategoryForm-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: @color-text-light;
+  
+    .ShipCategoryForm-header-text {
+      display: inline;
+      padding: 0;
+      margin: 0 0.5em 0 0;
+      flex-grow: 1;
+      text-decoration: underline;
+      color: @color-text-light;
+    }
+  
+    .ShipCategoryForm-header-id {
+      color: @color-text-dim;
+      margin-right: 0.5em;
+    }
+
+    .ShipCategoryForm-action {
+      padding: 0.5em;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+@import "../colors.less";
+
+.EventWidgetItem {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  .EventWidgetItem-header {
+    display: flex;
+    flex-direction: row;
+
+    .EventWidgetItem-summary {
+      width: 0;
+      flex-grow: 1;
+      margin: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-weight: bold;
+    }
+
+    .EventWidgetItem-startTime {
+      padding-left: 1em;
+      margin: 0;
+    }
+
+    .EventWidgetItem-icon {
+      padding-left: 1em;
+    }
+  }
+
+  .EventWidgetItem-description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

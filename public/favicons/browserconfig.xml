@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square150x150logo src="/favicons/havoc_logo.png"/>
+            <TileColor>#27292d</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>

@@ -1,0 +1,32 @@
+@import "../colors.less";
+
+.EventWidget {
+  min-width: 25em;
+  max-width: 40em;
+  flex-shrink: 0;
+  flex-grow: 1;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: flex-center;
+  padding: 1em;
+  margin: 1em;
+  background-color: @color-background-grey;
+  color: @color-text-light;
+
+  h2 {
+    color: @color-text-light;
+    margin: 0;
+    font-size: 120%;
+  }
+
+  .line-horizontal {
+    width: 100%;
+  }
+
+  .EventWidget-spin {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    color: @color-text-light;
+  }
+}

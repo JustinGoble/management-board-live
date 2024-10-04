@@ -1,0 +1,88 @@
+@import "../colors.less";
+
+.RequestList {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: flex-center;
+  padding: 2em;
+
+  .ant-table-cell {
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+  }
+  
+  .ant-table-thead > tr > th {
+    text-align: center;
+  }
+}
+
+.RequestList-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .RequestList-filter-select {
+    margin: 0.5em;
+    min-width: 15em;
+    max-width: 35em;
+    scroll-padding-right: 20em;
+  }
+
+  .RequestList-quantity-select {
+    margin: 0.5em;
+    width: 7em;
+  }
+
+  .RequestList-refresh-button {
+    margin: 0.5em;
+  }
+  
+  .RequestList-add-button {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 0.5em;
+  }
+}
+
+.RequestList-table {
+  width: 100%;
+  font-size: 2em;
+
+  .RequestNew-delete-action {
+    margin-right: 1em;
+  }
+}
+
+.RequestList-details-list {
+  width: 100%;
+  margin-left: 5em;
+}
+
+.good, .titleGreen {
+  color: green;
+  font-weight: bolder;
+}
+
+.bad, .titleRed {
+  color: rgb(158, 4, 4);
+  font-weight: bolder;
+}
+
+.optTag {
+  font-weight: normal;
+}
+
+.titleBlue, .titleGold {
+  font-weight: bolder;
+}
+
+.titleBlue {
+  color: rgb(32, 78, 178);
+}
+
+.titleGold {
+  color: rgb(214, 157, 11);
+}

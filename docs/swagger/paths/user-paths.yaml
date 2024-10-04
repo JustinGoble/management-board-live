@@ -1,0 +1,143 @@
+/v1/users:
+  get:
+    tags:
+      - user
+    summary: Returns all users
+    description: Returns all users. Paged API System.
+    parameters:
+      - $ref: '#/components/parameters/queryPage'
+      - $ref: '#/components/parameters/queryLimit'
+      - $ref: '#/components/parameters/querySortField'
+      - $ref: '#/components/parameters/querySortOrder'
+      - $ref: '#/components/parameters/querySearch'
+      - name: active
+        in: query
+        description: Defines whether displayed users should be active or inactive.
+        required: false
+        schema:
+          type: boolean
+      - name: hasPermissions
+        in: query
+        description: Defines whether displayed users should have permissions or no permissions.
+        required: false
+        schema:
+          type: boolean
+    responses:
+      200:
+        description: Found users
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                totalHits:
+                  type: number
+                  format: integer
+                results:
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/User'
+      default:
+        $ref: '#/components/responses/error'
+
+/v1/users/@me:
+  get:
+    tags:
+      - user
+    summary: Returns the current user
+    description: Identifies the user with the given token and returns the current user.
+    responses:
+      200:
+        description: Found user
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      default:
+        $ref: '#/components/responses/error'
+
+/v1/users/list:
+  get:
+    tags:
+      - user
+    summary: Returns the list of user IDs and names
+    description: >
+        Retuns a list of all the users.
+        Only returns the ID and name of each user.
+        Users are ordered in a ascending alphabetical order.
+    responses:
+      200:
+        description: A list of all users
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    format: int64
+                  name:
+                    type: string
+      default:
+        $ref: '#/components/responses/error'
+
+/v1/users/{id}:
+  get:
+    tags:
+      - user
+    summary: Returns a single user
+    description: Returns an user based on a single ID.
+    parameters:
+      - $ref: '#/components/parameters/pathUserId'
+    responses:
+      200:
+        description: Found user
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      default:
+        $ref: '#/components/responses/error'
+  patch:
+    tags:
+      - user
+    summary: Updates an user
+    description: |
+      Updates an user with the given values. Any properties not
+      provided will be ignored.
+
+      Properties `createdAt` and `updatedAt` will be ignored.
+    parameters:
+      - $ref: '#/components/parameters/pathUserId'
+    requestBody:
+      description: User with which to replace the old one
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/User'
+    responses:
+      200:
+        description: Changes to the user
+        content:
+          application/json:
+            schema:
+              allOf:
+                - $ref: '#/components/schemas/User'
+                - required:
+      default:
+        $ref: '#/components/responses/error'
+  delete:
+    tags:
+      - user
+    summary: Removes an user
+    description: Removes an user based on a single ID.
+    parameters:
+      - $ref: '#/components/parameters/pathUserId'
+    responses:
+      200:
+        description: OK
+      default:
+        $ref: '#/components/responses/error'

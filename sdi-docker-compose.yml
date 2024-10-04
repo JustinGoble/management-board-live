@@ -1,0 +1,38 @@
+version: '3.8'
+
+volumes:
+  src-data:
+  redis-data:
+  db-data:
+
+services:
+  nexus:
+    # tty: true
+    container_name: test-nexus
+    image: test-nexus-sdi:latest
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 5
+        window: 120s
+    ports:
+      - 80:5000
+    volumes:
+      - src-data:/usr/src/app
+      - db-data:/var/lib/postgresql/data
+      - redis-data:/data
+    environment:
+      POSTGRES_USER: $POSTGRES_USER
+      POSTGRES_PASSWORD: $POSTGRES_PASSWORD
+      NODE_ENV: $NODE_ENV
+      NODE_PORT: $NODE_PORT
+      PORT: $PORT
+      REACT_APP_BACKEND: $REACT_APP_BACKEND
+      DISCORD_CLIENT_ID: $DISCORD_CLIENT_ID
+      DISCORD_CLIENT_SECRET: $DISCORD_CLIENT_SECRET
+      DISCORD_SERVER_ID: $DISCORD_SERVER_ID
+
+      # PostgreSQL database & Redis
+      DATABASE_URL: $DATABASE_URL
+      REDIS_URL: $REDIS_URL

@@ -1,0 +1,61 @@
+/v1/discord/login:
+  get:
+    tags:
+      - authentication
+    summary: Initiates the login flow
+    description: Initiates an OAuth2 login flow and redirects to a Discord login page.
+    parameters:
+      - name: state
+        in: query
+        description: A unique identifier for the session created by the client.
+        required: true
+        schema:
+          type: string
+      - name: returnUrl
+        in: query
+        description: The login process ends by redirecting to this URL.
+        required: true
+        schema:
+          type: string
+    responses:
+      200:
+        description: Redirects to a Discord login page
+      default:
+        $ref: '#/components/responses/error'
+
+/v1/discord/callback:
+  get:
+    tags:
+      - authentication
+    summary: A callback URL for the OAuth2 login flow
+    description: A callback URL which receives the login codes from Discord.
+    parameters:
+      - name: state
+        in: query
+        description: A unique identifier for the session created by the client.
+        required: true
+        schema:
+          type: string
+      - name: code
+        in: query
+        description: The login code created by Discord.
+        required: true
+        schema:
+          type: string
+    responses:
+      200:
+        description: Redirects to a the loginUrl given at the start of the login process.
+      default:
+        $ref: '#/components/responses/error'
+
+/v1/discord/logout:
+  get:
+    tags:
+      - authentication
+    summary: Logs the current user out of the service
+    description: Identifies the user based on the token and logs them out.
+    responses:
+      200:
+        description: User logged out.
+      default:
+        $ref: '#/components/responses/error'

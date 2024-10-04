@@ -1,0 +1,66 @@
+@import "../colors.less";
+
+.App {
+	width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: @color-main-light;
+  color: @color-text-dark;
+}
+
+@media (min-width: 600px) {
+  .App {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.App-sidebar {
+  background-color: @color-secondary-light;
+}
+
+@media (min-width: 600px) {
+  .App-main {
+    display: flex;
+    width: 0;
+    height: 100%;
+    flex-grow: 1;
+  }
+}
+
+.App-content {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .App-content {
+    height: 0;
+    flex-grow: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+
+.App-user-load-spin {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  color: @color-text-dark;
+}
+
+.App-footer {
+  width: 100%;
+  text-align: center;
+  padding: 1.0em 0em;
+  font-size: 80%;
+}
+
+@media (min-width: 600px) {
+  .App-sidebar {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    max-width: 16em;
+    height: 100%;
+  }
+}

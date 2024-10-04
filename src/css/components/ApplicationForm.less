@@ -1,0 +1,56 @@
+@import "../colors.less";
+
+.ApplicationForm {
+  text-align: left;
+  width: 100%;
+  flex-grow: 1;
+  padding: 1em;
+  background-color: @color-background-grey;
+  color: @color-text-light;
+
+  @media (max-width: 600px) {
+    .ApplicationForm-header {
+      flex-direction: column;
+    }
+  }
+
+  .ApplicationForm-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: @color-text-light;
+    padding: 0.5em 1.0em;
+
+    .ApplicationForm-header-text {
+      display: inline;
+      padding: 0;
+      margin: 0 0.5em 0 0;
+      text-decoration: underline;
+      color: @color-text-light;
+    }
+
+    .ApplicationForm-header-id {
+      color: @color-text-dim;
+    }
+
+    .ApplicationForm-header-created {
+      .ApplicationForm-header-created-timestamp {
+        color: @color-text-light;
+      }
+    }
+
+    .ApplicationForm-header-status {
+      margin-left: 1.0em;
+    }
+  }
+
+  .ApplicationForm-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ApplicationForm-info > div {
+    margin-bottom: 1.0em;
+  }
+}
