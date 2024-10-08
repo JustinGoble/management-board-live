@@ -11,6 +11,9 @@ const config = {
     min: 1,
     max: 7,
   },
+  ssl: {
+    rejectUnauthorized: false
+  }
 };
 
 let knex = null;
