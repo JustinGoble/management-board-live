@@ -1,0 +1,57 @@
+{
+    "plugins": ["node"],
+    "extends": "eslint:recommended",
+    "root": true,
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "curly": ["error", "multi-line"],
+        "comma-dangle": ["error", {
+            "arrays": "always-multiline",
+            "objects": "always-multiline",
+            "imports": "always-multiline",
+            "exports": "always-multiline",
+            "functions": "always-multiline"
+        }],
+        "semi": ["error", "always"],
+        "quotes": ["error", "single", { "avoidEscape": true }],
+        "indent": ["error", 2, {
+            "SwitchCase": 1,
+            "MemberExpression": 1,
+            "ArrayExpression": 1,
+            "ObjectExpression": 1,
+            "ImportDeclaration": 1
+        }],
+        "no-process-env": "error",
+        "no-console": "error",
+        "no-undef": "error",
+        "prefer-const": "error",
+        "max-len": ["error", { "code": 120 }],
+        "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+        "prefer-destructuring": "error",
+        "func-names": ["error", "always"],
+        "no-trailing-spaces": "error",
+        "no-else-return": ["error", { "allowElseIf": false }],
+        "node/no-missing-require": "error",
+        "node/no-unsupported-features": "error",
+        "node/shebang": "error",
+        "node/no-deprecated-api": "error",
+        "array-bracket-spacing": ["error", "never"],
+        "object-curly-spacing": ["error", "always"],
+        "space-before-blocks": "error",
+        "space-infix-ops": ["error", { "int32Hint": false }],
+        "keyword-spacing": ["error", {
+            "before": true,
+            "after": true
+        }],
+        "eqeqeq": ["error", "smart"],
+        "no-var": "error",
+        "padded-blocks": ["error", "never"],
+        "strict": ["error", "never"]
+    }
+}

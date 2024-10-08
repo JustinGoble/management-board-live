@@ -1,0 +1,98 @@
+# Define CI stages and run order
+stages:
+  - build:install
+  - build:build
+  - deploy:stop
+  - deploy:migrate
+  - deploy:google
+  - deploy:remove
+  - deploy:copy
+  - deploy:permissions
+  - deploy:start
+
+# Install project dependencies
+install-dependencies:
+  stage: build:install
+  script:
+    - npm install
+  cache:
+    untracked: true
+  only:
+    - master
+
+# Build project sources
+build-project:
+  stage: build:build
+  needs:
+    - install-dependencies
+  script:
+    - npm run react-build
+  cache:
+    untracked: true
+  only:
+    - master
+
+# Stop the current ody service
+stop-server:
+  stage: deploy:stop
+  script:
+    - systemctl stop ody
+  only:
+    - master
+
+# Run database migrations
+migrate-database:
+  stage: deploy:migrate
+  needs:
+    - stop-server
+  script:
+    - source /home/ody/.deploy.migrate.env
+    - npm run migrate
+  cache:
+    untracked: true
+    policy: pull
+  only:
+    - master
+
+# Update the google credentials file
+update-google-credentials:
+  stage: deploy:google
+  script:
+    - echo $GOOGLE_CREDENTIALS_BASE64 | base64 -d > /home/ody/.google-credentials.json
+  only:
+    - master
+
+# Remove old application files
+remove-old-files: 
+  stage: deploy:remove
+  script:
+    - rm -rf /home/ody/ody-management-platform/*
+  only:
+    - master
+
+# Copy new application files
+copy-new-files:
+  stage: deploy:copy
+  script:
+    - cp -r * /home/ody/ody-management-platform/
+  cache:
+    untracked: true
+    policy: pull
+  only:
+    - master
+
+# Apply file permissions
+fix-file-permissions:
+  stage: deploy:permissions
+  script:
+    - chown -R ody:ody /home/ody/ody-management-platform
+  only:
+    - master
+
+# Start the new ody service
+start-server:
+  stage: deploy:start
+  script:
+    - systemctl start ody
+  only:
+    - master
