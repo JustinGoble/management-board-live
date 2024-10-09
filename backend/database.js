@@ -3,7 +3,12 @@ const logger = require('./logger')(__filename);
 
 const config = {
   client: 'pg',
-  connection: `${envConfig.DATABASE_URL}${envConfig.SSLMODE}`,
+  connection: {
+    connectionString: `${envConfig.DATABASE_URL}${envConfig.SSLMODE}`,
+    ssl: {
+      rejectUnauthorized: false,
+    },
+  },
   migrations: {
     tableName: 'migrations',
   },
@@ -11,9 +16,6 @@ const config = {
     min: 1,
     max: 7,
   },
-  ssl: {
-    rejectUnauthorized: false
-  }
 };
 
 let knex = null;
