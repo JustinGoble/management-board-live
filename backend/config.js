@@ -9,6 +9,7 @@ module.exports = {
   DISABLE_REQUST_LOGGER: process.env.DISABLE_REQUST_LOGGER === 'true',
 
   DATABASE_URL: process.env.DATABASE_URL,
+  SSLMODE: process.env.SSLMODE,
   REDIS_URL: process.env.REDIS_URL,
 
   DISCORD_CLIENT_ID: process.env.DISCORD_CLIENT_ID,
