@@ -3,7 +3,7 @@ const logger = require('./logger')(__filename);
 
 const config = {
   client: 'pg',
-  connection: `${envConfig.DATABASE_URL}${envConfig.SSLMODE || ''}`,
+  connection: `${envConfig.DATABASE_URL}${envConfig.SSLMODE}`,
   migrations: {
     tableName: 'migrations',
   },
